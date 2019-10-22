@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	// Объявляем переменные
+	var RurEur = 71.37;
+	var RurUsd = 65;
+	var ResultUsd;
+	var ResultEur;
+	var RurValue;
+
+	// Запрашиваем данные у пользователя
+	RurValue = parseInt(prompt("Введите значение в рублях"));
+
+	// Считаем суммы в рублях
+	ResultUsd = (RurValue / RurUsd).toFixed(2);
+	ResultEur = (RurValue / RurEur).toFixed(2);
+
+	// Выводим данные пользователю
+	alert("Вы можете обменять " + RurValue + " руб. на: \n" +
+		ResultUsd + " USD" + "\n" +
+		ResultEur + " EUR");
+
+</script>

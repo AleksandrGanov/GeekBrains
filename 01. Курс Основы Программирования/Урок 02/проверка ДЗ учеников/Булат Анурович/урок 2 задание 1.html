@@ -1,0 +1,48 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	var Answer = ("14");//111111111111111111
+	var userAnswer = +prompt("мельник пошел на мельницу и увидел в каждом углу по 3 кошки. Сколько ног на мельнице?");
+    var cc = ("поздравляю вы угадали!");
+    var sum = 0;
+
+	{if (userAnswer==Answer)
+		{alert (cc);
+		alert("осталось две загадки");
+		sum++}
+	else if(userAnswer != Answer)
+		{alert("ответ не верен.");
+		alert("осталось две загадки");
+		}
+	}	
+	{var Answer1 = ("ёлка");// 2222222222222222222
+	var ww = ("Ёлка");
+	var qq = ("ель");
+ 	var userAnswer1 = prompt("Зимой и летом одним цветом?");
+
+	if (userAnswer1==Answer1 || userAnswer1 == qq || userAnswer1 == ww)
+		{alert(cc);
+		alert("осталось одна загадки");
+		sum++}
+	else if(userAnswer1 != Answer1)
+		{alert("осталось одна загадки.");
+		alert("следующая загадка");
+		}
+	 }   
+		
+	
+   {var Answer2 = ("замок"||"дверной замок");//3333333333333333333
+	var userAnswer2 = prompt("ни лает ни кусает а в дом не пускает");
+
+	if (userAnswer2==Answer2)
+		{alert(cc);
+		
+		sum++}
+	else if(userAnswer2 != Answer2)
+		{alert("ответ не верен.");
+		}
+	 }   
+
+alert("Решено загадок: " + sum );
+	
+		</script>

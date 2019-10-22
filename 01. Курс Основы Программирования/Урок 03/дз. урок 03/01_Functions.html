@@ -1,0 +1,80 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	/*
+	ОПИСАНИЕ:
+	---------------
+	-- Написать ​​функцию, ​к​оторая ​​принимает ​​в ​к​ачестве ​​параметра ​​число ​​n. ​​Результатом работы 
+		​​функции ​​является ​​массив ​​из ​​N ​​элементов ​с​о ​з​начениями ​​1, ​​2, ​​3… ​​n. 
+	-- Написать функцию, ​к​оторая ​​принимает ​​массив ​​чисел. ​​Результатом ​​работы ​​функции является ​с​умма ​​чисел ​​этого ​​массива
+	-- ​​Написать ​​функцию, ​к​оторая ​​на ​​вход ​​получает ​​массив ​​целых ​​чисел, ​​и ​​в ​к​ачестве результата ​​возвращает ​​максимальное ​​число
+	-- ​​Написать ​​функцию, ​к​оторая ​​на ​​вход ​​получает ​​массив ​​целых ​​чисел, ​​и ​​в ​к​ачестве, результата ​​возвращает ​​минимальное ​​число
+ 	​-- Написать ​​функцию, ​к​оторая ​​на ​​вход ​​получает ​​массив ​​целых ​​чисел, ​​и ​​в ​к​ачестве результата ​​возвращает ​т​олько ​​четные ​​числа ​​из ​​этого ​​массива.
+ 		​​Чтобы ​​определить четность ​​числа, ​​воспользуйтесь ​​оператором ​​для ​​подсчета ​​остатка ​​от ​​деления: ​x​ ​​% ​​2. Если ​​остаток ​​от ​​деления ​​числа 
+	 	​на ​​2 ​​равен ​​0, ​т​о ​​число ​-​ ​​четное. 
+	*/
+
+	// РЕАЛИЗАЦИЯ ФУНКЦИЙ
+
+	function nNumberArray(count) {
+		var arr = []
+		for (var i = 0; i < count; i++) {
+			arr[i] = i + 1;
+		}
+		return arr;
+	}
+	function arrAccept(arr) {
+		var sum = 0;
+		arr.forEach(function (item) { sum += item; })
+		return sum;
+	}
+	function maxNumber(arr) {
+		var max = arr[0];
+		arr.forEach(function (item) { if (item > max) max = item; })
+		return max;
+	}
+	function minNumber(arr) {
+		var min = arr[0];
+		arr.forEach(function (item) { if (item < min) min = item; })
+		return min;
+	}
+	function evenNumbers(arr) {
+		var evenNumbersArr = [];
+		arr.forEach(function (item) { if (item % 2 == 0) evenNumbersArr.push(item); })
+		return evenNumbersArr;
+	}
+
+	//ОСНОВНОЙ КОД
+
+	// nNumberArray
+	do {
+		var arg = +prompt("Введите нужное количество агрументов")
+	}
+	while (isNaN(arg) && arg < 0); // проверяем чтобы было число и больше нуля
+	document.write("функция \"nNumberArray\", ввод: " + arg + ", вывод: " + nNumberArray(arg) + "<br/>");
+
+	// arrAccept
+	document.write("функция \"arrAccept\", ввод: " + nNumberArray(arg) + ", вывод: " + arrAccept(nNumberArray(arg)) + "<br/>");
+
+	// maxNumber
+	var f3arr = []; // создаем пустой массив
+	for (var i = 0; i < arg; i++) { // наполняем массив случайными числами до 100
+		f3arr[i] = parseInt(Math.random() * 100);
+	}
+	document.write("функция \"maxNumber\", ввод: " + f3arr + ", вывод: " + maxNumber(f3arr) + "<br/>");
+
+	// minNumber
+	var f4arr = []; // создаем пустой массив
+	for (var i = 0; i < arg; i++) { // наполняем массив случайными числами до 100
+		f4arr[i] = parseInt(Math.random() * 100);
+	}
+	document.write("функция \"minNumber\", ввод: " + f4arr + ", вывод: " + minNumber(f4arr) + "<br/>");
+
+	// evenNumbers
+	var f5arr = []; // создаем пустой массив
+	for (var i = 0; i < arg; i++) { // наполняем массив случайными числами до 100
+		f5arr[i] = parseInt(Math.random() * 100);
+	}
+	document.write("функция \"evenNumbers\", ввод: " + f5arr + ", вывод: " + evenNumbers(f5arr) + "<br/>");
+
+</script>

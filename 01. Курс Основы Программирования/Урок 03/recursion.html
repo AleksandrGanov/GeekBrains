@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	/*
+	Описание:
+	---------------
+	-- примеры рекурсии:
+		нахождение наибольшего общего делителя 2-х целых чисел
+		перевод числа из десятичной в двоичную форму
+		вычисление факториала
+    текст описания
+	*/
+
+	function recursiveFactorial(n) {
+		if (n == 0) { return 1; }
+		else {
+			document.write(n + "<br>");
+			return recursiveFactorial(n - 1) * n;
+		}
+	}
+
+	document.write("Итоговое значение: " + recursiveFactorial(5));
+
+</script>

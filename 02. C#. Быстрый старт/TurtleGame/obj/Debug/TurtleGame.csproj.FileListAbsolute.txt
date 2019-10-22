@@ -1,0 +1,9 @@
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\bin\Debug\TurtleGame.exe.config
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\bin\Debug\TurtleGame.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\bin\Debug\TurtleGame.pdb
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\bin\Debug\SmallBasicLibrary.dll
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\bin\Debug\SmallBasicLibrary.xml
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\obj\Debug\TurtleGame.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\obj\Debug\TurtleGame.csproj.CopyComplete
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\obj\Debug\TurtleGame.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\TurtleGame\obj\Debug\TurtleGame.pdb

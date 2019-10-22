@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	/*
+	Описание:
+	---------------
+	*/
+
+	// реализация функций
+	function generateText(arr, long) {
+		var ret = "";
+		for (var i = 0; i < long; i++) { ret += arr[getRandomNunber(arr.length - 1)]; }
+		return ret;
+	}
+	function checkAnswer(ans) {
+		if (ans = "null") { alert("Вы вышли из игры, игра окончена"); return true; }
+		else if (ans = text) { alert("Все ОК, вы ввели верный текст"); return true; }
+		else { alert("Текст неверный, попробуйте еще раз"); return false; }
+	}
+	function getRandomNunber(upperBound) {
+		return Math.round(Math.random() * upperBound);
+	}
+
+	//основной код
+	do {
+		//alert("Вас приветствует программа по обучению слепой печати");
+		//alert("Положите 4 пальца левой руки - мезинец, безымянный, средний и указательный на клавиши ф ы в а. Запомните, что буква \"А\""
+		//	+ "находится по Вашим указательным пальцем, а \"Ф\" - под мезинцем. \nТеперь неспеша набирайте текст"
+		//		+ ", постарайтесь не смотреть на клавиатуру");
+
+		var text = generateText(["ф", "а"], 10);
+		var userText = prompt("Введите предлагаемый текст: " + text);
+	} while (!checkAnswer(userText));
+
+
+</script>

@@ -1,0 +1,66 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	/*
+	Описание:
+	---------------
+	-- пользователю предлагается указать ответ на каждую из загадок
+	-- ответ можно давать символами в любом регистре, программа для сравнения переводить ответы
+		в нижний регистр
+	-- пользователь может пропустить загадку через нажатие кнопки "отмена"
+	-- по окончанию игры программа считает количество верных ответов
+	*/
+
+	// объявляем переменные
+	var riddleTextBase;
+	var rightAnswersCount = 0;
+	var skippedRiddlesCount = 0;
+	var userAnswer;
+
+	// заполняем массив загадок 
+	var riddleText = new Array;
+	riddleText[0] = "Висит груша, нельзя скушать";
+	riddleText[1] = "Зимой и летом одним цветом";
+	riddleText[2] = "Два конца, два кольца, посредине гвоздик";
+	riddleText[3] = "Без рук, без топоренка, построена избенка";
+
+	// заполняем массив ответов 
+	var riddleAnswer = new Array;
+	riddleAnswer[0] = "лампочка";
+	riddleAnswer[1] = "елка";
+	riddleAnswer[2] = "ножницы";
+	riddleAnswer[3] = "гнездо";
+
+	for (var i = 0; i < riddleText.length; i++) {
+		riddleTextBase = riddleText[i];
+		userAnswer = prompt("Введите ответ на загадку номер: " + (i + 1) + " \n" + "<---" + riddleTextBase + "--->" +
+			"\n(регистр букв значения не имеет)");
+
+		// проверяем на отсутствие значения на случай нажатия кнопки "отмена" 
+		// и считаем сколько раз пользователь не стал отвечать на вопрос, то есть нажал "отмена"
+		if (userAnswer == null) {
+			skippedRiddlesCount++;
+			continue
+		}
+
+		if (userAnswer.toLowerCase() == riddleAnswer[i]) {
+			alert("Поздравляем, Вы дали верный ответ");
+			rightAnswersCount++;
+		}
+		else if (i < (riddleText.length - 1)) {
+			alert("К сожалению, Вы дали неверный ответ, переходим к следующей загадке");
+		}
+		else {
+			alert("К сожалению, Вы дали неверный ответ, игра окончена");
+		}
+	}
+
+	// выдаем пользователю количество верных ответов
+	if (skippedRiddlesCount == i) {
+		alert("Похоже, что Вы пропустили все загадки");
+	}
+	else {
+		alert("Вы ответили верно на " + rightAnswersCount + " из " + i + " загадок");
+	}
+
+</script>

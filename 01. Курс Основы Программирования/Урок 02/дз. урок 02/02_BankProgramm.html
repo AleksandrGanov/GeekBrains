@@ -1,0 +1,83 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	/*
+	Описание:
+	---------------
+	-- программа считает начисленные проценты и общую сумму к выплате
+		при условии ежегодной или ежемесячной капитализации процентов
+		(т.к. в задаче нет условия о том, что делать с процентами, то составлен алгоритм для случая
+		капитализации процентов, то есть прибавления к сумме на начало периода)
+	-- кол-во дней в каждом месяца для упрощения принято равным 365/12
+	*/
+
+	// объявляем переменные
+	var depositSum; // сумма вклада
+	var annualPercent; // начисление за месяц
+	var montlyPercent; // начисление за месяц
+	var checkValue; // проверка вводимых значений
+
+	// объявляем константы
+	const depositPeriod = 5; //срок вклада
+
+	// запрашиваем начальную сумму по вкладку в рублях и проверяем допустимость значения
+	do {
+		var depositSum = +prompt("Введите сумму вклада в рублях (от 1 руб. до 500.000 руб.)"); // сумма вклада
+
+		// условия проверки введенного значения
+		checkValue = !(isNaN(depositSum));
+		checkValue = checkValue && depositSum >= 1;
+		checkValue = checkValue && depositSum <= 500000;
+	}
+	while (!checkValue);
+
+	// запрашиваем ставку по вкладку в процентах годовых и проверяем допустимость значения
+	do {
+		var annualDepositPercent = +prompt("Введите ставку по вкладу, % годовых (от 0.1% до 100%)"); // банковская ставка по вкладу
+
+		// условия проверки введенного значения
+		checkValue = !(isNaN(annualDepositPercent));
+		checkValue = checkValue && annualDepositPercent >= 0.1;
+		checkValue = checkValue && annualDepositPercent <= 100;
+	}
+	while (!checkValue);
+
+	// запрашиваем тип начисления: ежегодно, ежемесячно
+	do {
+		var accrualBasis = +prompt("Введите тип начисления:" // метод начисления: ежегодно, ежемесячно
+			+ "\n\"ежегодно\" - укажите 1"
+			+ "\n\"ежемесячно\" - укажите 2");
+
+		// условия проверки введенного значения
+		checkValue = !(isNaN(accrualBasis));
+		checkValue = checkValue && (accrualBasis == 1 || accrualBasis == 2);
+	}
+	while (!checkValue);
+
+	// выводим заголовок расчета
+	document.write("Исходные данные для расчета"
+		+ "<br/>-------------------------------------------"
+		+ "<br/>Сумма вклада: " + depositSum + " руб."
+		+ "<br/>Ставка по вкладу: " + annualDepositPercent + "% годовых"
+		+ "<br/>-------------------------------------------<br/>");
+
+	if (accrualBasis == 1) {
+		for (i = 1; i <= depositPeriod; i++) {
+			annualPercent = depositSum * (annualDepositPercent / 100);
+			document.write(i + ". | " + depositSum.toFixed(2) + " | " + annualPercent.toFixed(2) + "<br>");
+			depositSum += annualPercent
+		}
+	}
+	else {
+		for (i = 1; i <= depositPeriod * 12; i++) {
+			montlyPercent = depositSum * (annualDepositPercent / (100 * 365)) * (365 / 12);
+			document.write(i + ". | " + depositSum.toFixed(2) + " | " + montlyPercent.toFixed(2) + "<br>");
+			depositSum += montlyPercent
+		}
+	}
+
+	// выводим итоговую сумму к получению
+	document.write("-------------------------------------------"
+		+ "<br>Итоговая сумма: " + depositSum.toFixed(2) + " руб.");
+
+</script>

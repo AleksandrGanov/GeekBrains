@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	var sum = +prompt('Введите сумму вклада:');
+	var percent = +prompt('Введите годовой процент:');
+	
+	for(var year = parseInt(1); year < 6; year++){
+		var sumTotal = parseInt(sum + (sum*percent/100)*year);
+		var sumTotal = (sum + (sum*percent/100)*year).toFixed(2);
+	
+	if (year == 1) {
+		document.write('Сумма для выплаты с процентом за ' + year + ' год ' +sumTotal + '<br>');
+	} else if (year > 1 && year < 5) {
+		document.write('Сумма для выплаты с процентом за ' + year + ' года ' +sumTotal + '<br>');
+	} else
+		document.write('Сумма для выплаты с процентом за ' + year + ' лет ' +sumTotal + '<br>');
+	}
+
+</script>

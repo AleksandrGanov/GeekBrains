@@ -1,0 +1,13 @@
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\БыстрыйСтарт.Урок01\bin\Debug\БыстрыйСтарт.Урок01.exe.config
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\БыстрыйСтарт.Урок01\bin\Debug\БыстрыйСтарт.Урок01.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\БыстрыйСтарт.Урок01\bin\Debug\БыстрыйСтарт.Урок01.pdb
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\БыстрыйСтарт.Урок01\obj\Debug\БыстрыйСтарт_Урок01.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\БыстрыйСтарт.Урок01\obj\Debug\БыстрыйСтарт_Урок01.csproj.CoreCompileInputs.cache
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\БыстрыйСтарт.Урок01\obj\Debug\БыстрыйСтарт.Урок01.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\БыстрыйСтарт.Урок01\obj\Debug\БыстрыйСтарт.Урок01.pdb
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\БыстрыйСтарт_Урок01\bin\Debug\БыстрыйСтарт.Урок01.exe.config
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\БыстрыйСтарт_Урок01\bin\Debug\БыстрыйСтарт.Урок01.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\БыстрыйСтарт_Урок01\bin\Debug\БыстрыйСтарт.Урок01.pdb
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\БыстрыйСтарт_Урок01\obj\Debug\БыстрыйСтарт_Урок01.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\БыстрыйСтарт_Урок01\obj\Debug\БыстрыйСтарт.Урок01.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\БыстрыйСтарт_Урок01\obj\Debug\БыстрыйСтарт.Урок01.pdb

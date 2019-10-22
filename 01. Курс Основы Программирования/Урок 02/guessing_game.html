@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	var answer = parseInt(Math.random() * 100);
+	var userAnswer = +prompt("Введите ваш ответ (число от 1 до 100)");
+	var answerString;
+	var tryNumber = 5;
+
+	for (var tryCount = 2; tryCount <= tryNumber; tryCount++) {
+		if (userAnswer == answer) {
+			alert("Вы угадали!!! Правильный ответ: " + userAnswer);
+			break;
+		}
+		else if (userAnswer > answer) {
+			answerString = "Вы ввели слишком большое число";
+		}
+		else if (userAnswer < answer) {
+			answerString = "Вы ввели слишком маленькое число";
+		}
+		var userAnswer = +prompt(answerString + ", попробуйте еще раз (число от 1 до 100), \n" +
+			"попытка: " + tryCount + " из " + tryNumber);
+	}
+
+	if (tryCount > tryNumber) {
+		alert("Вы проиграли, число не разгадано!");
+	}
+
+</script>

@@ -1,0 +1,13 @@
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\CinemaAdviser\bin\Debug\CinemaAdviser.exe.config
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\CinemaAdviser\bin\Debug\CinemaAdviser.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\CinemaAdviser\bin\Debug\CinemaAdviser.pdb
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\CinemaAdviser\obj\Debug\CinemaAdviser.csproj.CoreCompileInputs.cache
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\CinemaAdviser\obj\Debug\CinemaAdviser.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\CinemaAdviser\obj\Debug\CinemaAdviser.pdb
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\CinemaAdviser\obj\Debug\CinemaAdviser.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\CinemaAdviser\bin\Debug\CinemaAdviser.exe.config
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\CinemaAdviser\bin\Debug\CinemaAdviser.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\CinemaAdviser\bin\Debug\CinemaAdviser.pdb
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\CinemaAdviser\obj\Debug\CinemaAdviser.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\CinemaAdviser\obj\Debug\CinemaAdviser.exe
+D:\Downloads\YandexDisk\Документы - Ганов\Visual Studio 2019\Projects\GeekBrains\CinemaAdviser\obj\Debug\CinemaAdviser.pdb

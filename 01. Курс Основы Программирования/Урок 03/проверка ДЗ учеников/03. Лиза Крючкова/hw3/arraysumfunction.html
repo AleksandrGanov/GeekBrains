@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+   
+ 	function ArraySumFunction(array){
+ 		var sum = 0;
+ 		for (var i = 0; i < n; i++){
+          sum += array[i];
+ 		}
+ 		return sum;
+ 	}
+
+   var array = [];
+   var n = +prompt("Введите длину массива:");
+   for (var i = 0; i < n; i++){
+   		var number = +prompt("Введите элемент массива array:");
+   		array.push(number);
+	}
+
+	var sum = ArraySumFunction(array);
+	alert("Сумма элементов масива равна: " + sum);
+
+</script>
