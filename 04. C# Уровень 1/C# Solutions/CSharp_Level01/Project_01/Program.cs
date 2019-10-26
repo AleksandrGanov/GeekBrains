@@ -1,16 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
-namespace Lesson_01
+// Написать программу сложения двух чисел
+
+namespace Lesson_01.Task_01
 {
     class Program
     {
         static void Main(string[] args)
         {
-             Console.WriteLine(); 
+            double x,y;
+            Console.Write("Введите первое число: ");
+            string str = Console.ReadLine();
+            x = Convert.ToDouble(str);
+            Console.Write("Введите второе число: ");
+            y = Convert.ToDouble(Console.ReadLine());
+            double z = x + y;
+            Console.WriteLine(x + "+" + y + "=" + z);     // Преобразование в строку
+            Console.ReadLine();
         }
     }
 }
