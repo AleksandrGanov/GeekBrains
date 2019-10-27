@@ -1,5 +1,0 @@
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\C# Solutions\CSharp_Level01\Lesson_01. HW_Task_02\bin\Debug\Lesson_01.HW_Task_02.exe.config
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\C# Solutions\CSharp_Level01\Lesson_01. HW_Task_02\bin\Debug\Lesson_01.HW_Task_02.exe
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\C# Solutions\CSharp_Level01\Lesson_01. HW_Task_02\bin\Debug\Lesson_01.HW_Task_02.pdb
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\C# Solutions\CSharp_Level01\Lesson_01. HW_Task_02\obj\Debug\Lesson_01.HW_Task_02.exe
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\C# Solutions\CSharp_Level01\Lesson_01. HW_Task_02\obj\Debug\Lesson_01.HW_Task_02.pdb
