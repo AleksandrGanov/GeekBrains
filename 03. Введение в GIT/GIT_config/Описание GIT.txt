@@ -103,6 +103,24 @@ git branch -vv (проверка "привязки" (upstreaming) локальных веток к удаленным)
 -- удаляем старую ветку (git push origin :fix_error), после выполнения ремоут-ветка будет удалена
 можно сделать по-другому: https://www.kobzarev.com/programming/rename-git-local-and-remote-branches/
 
+работа с SSH-протоколом:
+--------------------------------
+HOME=C:/Users/<username>/ (установка домашней директории пользователя, например, "C:\Users\Ганов")
+ssh-keygen -C "My key alias" (генерация ключей, где "My key alias" - произвольный алиас ключей. По умолчанию ключ кладутся в следующую домашнюю папку: ~/.ssh/id_rsa (частный ключ), ~/.ssh/id_rsa.pub (публичный ключ который надо скопировать в акаунт github.com))
+ssh-keygen -p # <старый пароль> <новый пароль> (переназначение пароля)
+ssh-agent -s (проверка наличия SSH-агента)
+eval $(ssh-agent -s) (запуск SSG-agent в фоне)
+ssh-add ~/.ssh/id_rsa (добавление ключей в агент)
+http://man.openbsd.org/ssh-agent (описание SSG-agent)
+http://adminunix.ru/ssh-autentifikatsiya-po-klyucham-ssh-keygen-ssh-agent-freebsd/ (принцип работы SSH-agent)
+https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent (генерация ключей)
+https://help.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases (автозапуск SSH-agent при работе через консоль)
+https://github.com/rsajob/docs/wiki/%5Bgit%5D-%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BF%D0%BE-ssh (генерация ключей через GIT-bach)
+https://habr.com/ru/post/122445/ (общая инфа по SSH-подключениям)
+https://habr.com/ru/post/266667/ (генерация ключей через GIT-GUI)
+
+
+
 
 GIT-flow:
 -------------
@@ -166,10 +184,7 @@ GIT-bash (расширение функционала "Git Aware Prompt")
 ----------------------
 https://code-live.ru/post/cpp-cyrillic-manual/ (решение вопроса с кодировками)
 http://pr0git.blogspot.com/2015/02/git_4.html (решение вопроса с кодировками)
-https://ab57.ru/cmdlist.html (список команда под консоль windows)
-https://github.com/rsajob/docs/wiki/%5Bgit%5D-%D0%94%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BF%D0%BE-ssh (генерация ключей через GIT-bach)
-https://habr.com/ru/post/122445/ (общая инфа по SSH-подключениям)
-https://habr.com/ru/post/266667/ (генерация ключей через GIT-GUI)
+https://ab57.ru/cmdlist.html (список команд под консоль windows)
 http://pr0git.blogspot.com/2015/02/git_18.html (статья "удаленные ветки")
 http://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html (gitflow)
 https://ru.stackoverflow.com/questions/607001/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B5-%D0%B2%D0%B5%D1%82%D0%BA%D0%B8-%D0%BE%D1%81%D1%82%D0%B0%D1%8E%D1%82%D1%81%D1%8F-%D0%B2-%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8-origin (почему смерженные ветки остаются в локальном репозитории)
