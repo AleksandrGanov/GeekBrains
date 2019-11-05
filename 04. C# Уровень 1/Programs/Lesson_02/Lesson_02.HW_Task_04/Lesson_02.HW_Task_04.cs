@@ -39,14 +39,7 @@ namespace Lesson_02.HW_Task_04
 
         static bool CheckPass(string login, string pass)
         {
-            if (login == "root" && pass == "GeekBrains")
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return (login == "root" && pass == "GeekBrains");
         }
         static string AskUser(string str)
         {

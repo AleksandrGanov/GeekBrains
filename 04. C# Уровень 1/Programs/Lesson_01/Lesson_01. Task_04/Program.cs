@@ -2,7 +2,7 @@
 
 // Разработать метод проверки чётности числа. Метод возвращает true, если число чётное, и false, если число нечётное
 
-namespace Lesson_01.Task_04
+namespace Lesson_01.Exp_04
 {
     class Program
     {

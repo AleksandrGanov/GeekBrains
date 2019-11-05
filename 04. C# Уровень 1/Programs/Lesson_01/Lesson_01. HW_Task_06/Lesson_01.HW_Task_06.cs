@@ -26,7 +26,38 @@ namespace Lesson_01.HW_Task_06
             Console.Write(str + ": ");
             return Console.ReadLine();
         }
-
+        /// <summary>
+        /// Запрос значения "Int" через консоль с проверкой на тип значения
+        /// </summary>
+        /// <param name="msg">Сообщение, выдаваемое пользователю</param>
+        /// <returns>Введенное в консоль значение</returns>
+        static int GetValueInt(string msg)
+        {
+            int x; bool flag;
+            do
+            {
+                Console.WriteLine(msg);
+                flag = int.TryParse(Console.ReadLine(), out x);
+            }
+            while (!flag);  //  Пока false(!false=true), повторять цикл
+            return x;
+        }
+        /// <summary>
+        /// Запрос значения "Double" через консоль с проверкой на тип значения
+        /// </summary>
+        /// <param name="msg">Сообщение, выдаваемое пользователю</param>
+        /// <returns>Введенное в консоль значение</returns>
+        static double GetValueDouble(string msg)
+        {
+            double x; bool flag;
+            do
+            {
+                Console.WriteLine(msg);
+                flag = double.TryParse(Console.ReadLine(), out x);
+            }
+            while (!flag);  //  Пока false(!false=true), повторять цикл
+            return x;
+        }
         /// <summary>
         /// Вычисляет расстояние между точками с заданными координатами
         /// </summary>
@@ -39,7 +70,6 @@ namespace Lesson_01.HW_Task_06
         {
             return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
         }
-
         /// <summary>
         /// Проверка выхода зоны печати за границы буфера окна консоли
         /// </summary>
@@ -62,7 +92,6 @@ namespace Lesson_01.HW_Task_06
                 return false;
             }
         }
-
         /// <summary>
         /// Проверка выхода зоны печати за границы буфера окна консоли
         /// </summary>
@@ -96,7 +125,6 @@ namespace Lesson_01.HW_Task_06
                 return false;
             }
         }
-
         /// <summary>
         /// Вывод строковой информации в консоль, печать возможно с любой позиции курсора
         /// в рамках буфера консоли

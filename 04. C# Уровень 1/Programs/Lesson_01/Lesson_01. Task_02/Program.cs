@@ -2,7 +2,7 @@
 
 // Вывести значение функции ax^2+bx+c в точке x. x — ввести с клавиатуры, a,b и c — присвоить в программе.
 
-namespace Lesson_01.Task_02
+namespace Lesson_01.Exp_02
 {
     class Program
     {

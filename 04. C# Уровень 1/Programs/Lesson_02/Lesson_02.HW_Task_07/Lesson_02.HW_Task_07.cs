@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 /* Описание задания:
 Ганов Александр Анатольевич
@@ -13,8 +13,8 @@ namespace Lesson_02.HW_Task_07
     {
         static void Main()
         {
-            int a = 0;
-            int b = 10;
+            int a = 1;
+            int b = 500;
             RecursionPrintNumbers(a, b);
             Console.WriteLine($"\nСумма чисел от a до b равна: {RecursionSumNumbers(a, b)}");
             Console.ReadLine();
@@ -28,8 +28,8 @@ namespace Lesson_02.HW_Task_07
         }
         static int RecursionSumNumbers(int a, int b)
         {
-            if (a == b) return a;
-            else return a + RecursionSumNumbers(++a, b);
+            if (a<b) return a + RecursionSumNumbers(++a, b);
+            else return a;
         }
     }
 }

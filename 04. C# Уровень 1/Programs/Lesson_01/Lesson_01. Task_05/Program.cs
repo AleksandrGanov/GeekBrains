@@ -2,7 +2,7 @@
 
 // Работа с консолью и перегрузкой методов
 
-namespace Lesson_01.Task_05
+namespace Lesson_01.Exp_05
 {
     class Program
     {

@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 // Написать программу сложения двух чисел
 
-namespace Lesson_01.Task_01
+namespace Lesson_01.Exp_01
 {
     class Program
     {

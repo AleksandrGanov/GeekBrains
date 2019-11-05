@@ -1,0 +1,12 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkesList\bin\Debug\Structures.LinkedList.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkesList\bin\Debug\Structures.LinkedList.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkesList\bin\Debug\Structures.LinkedList.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkesList\obj\Debug\Structures.LinkedList.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkesList\obj\Debug\Structures.LinkedList.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkesList\obj\Debug\Structures.LinkedList.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkedList\bin\Debug\Structures.LinkedList.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkedList\bin\Debug\Structures.LinkedList.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkedList\bin\Debug\Structures.LinkedList.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkedList\obj\Debug\Structures.LinkedList.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkedList\obj\Debug\Structures.LinkedList.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\My Codes\MyCodes\Structures.LinkedList\obj\Debug\Structures.LinkedList.pdb

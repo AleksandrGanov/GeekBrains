@@ -2,7 +2,7 @@
 
 // Написать программу для подсчета площади треугольника
 
-namespace Lesson_01.Task_06
+namespace Lesson_01.Exp_06
 {
     class Program
     {

@@ -1,6 +1,6 @@
 ﻿// Обменять значениями две переменные a и b
 
-namespace Lesson_01.Task_03
+namespace Lesson_01.Exp_03
 {
     class Program
     {

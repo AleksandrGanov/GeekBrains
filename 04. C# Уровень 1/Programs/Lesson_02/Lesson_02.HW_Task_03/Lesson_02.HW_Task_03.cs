@@ -16,7 +16,7 @@ namespace Lesson_02.HW_Task_03
             int counter = 0;
             do
             {
-                num = Convert.ToInt32(AskUser("Введите целое число^"));
+                num = Convert.ToInt32(AskUser("Введите целое число:"));
                 if (num % 2 != 0 && num > 0) counter++;
             } while (num != 0);
 
