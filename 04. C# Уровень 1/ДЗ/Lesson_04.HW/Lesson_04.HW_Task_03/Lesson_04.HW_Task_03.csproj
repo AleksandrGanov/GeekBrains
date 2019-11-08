@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E9D88E3-8C87-4AF6-A41B-990C0FB96A5C}</ProjectGuid>
+    <ProjectGuid>{5C679D0C-2EA1-4F01-9E91-1860F8D09F32}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson_04.HW_Task_02</RootNamespace>
-    <AssemblyName>Lesson_04.HW_Task_02</AssemblyName>
+    <RootNamespace>Lesson_04.HW_Task_03</RootNamespace>
+    <AssemblyName>Lesson_04.HW_Task_03</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrHandle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyLibraries\MyLibraries.csproj">
-      <Project>{fdeaae14-9599-4e55-91a4-498803329d52}</Project>
-      <Name>MyLibraries</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
