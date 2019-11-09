@@ -1,5 +1,6 @@
 ﻿using System;
-using UserInteraction;
+using mlConsole;
+using mlArray;
 
 /* Описание задания:
 Ганов Александр Анатольевич
@@ -22,18 +23,24 @@ namespace Lesson_04.HW_Task_02
             int max = 10000;
             int[] arr = new int[arrLen];
             Random rnd = new Random();
-
-            arr = ArrHandle.FillRndArray(arr.Length, min, max);
-            ConsolePrintData.ArrPrint(arr, 5);
-            Console.WriteLine($"\n\nПары, в которых только одно число делится на: {devider}");
+            string str = @"..\..\..\SampleData.txt";
+            
+            arr = new OneDimArray(arr.Length, min, max).GetArr();
+            PrintData.ArrPrint(arr, 5);
+            Console.WriteLine($"\nПары, в которых только одно число делится на: {devider}");
             ArrHandle.SearchPair(arr, devider);
             Console.WriteLine();
 
             Array.Clear(arr, 0, arrLen);
-            arr = ArrHandle.FillRndArray(rnd.Next(1, arrLen / 2), min, max);
-            ArrHandle.WriteFile(@"..\..\..\SampleData.txt", arr);
-            ArrHandle.ReadFile(@"..\..\..\SampleData.txt");
+            arr = new OneDimArray(rnd.Next(1, arrLen / 2), min, max).GetArr();
+            FileOper.AppendToFile(str, arr);
+            FileOper.ReadFromFile(str);
             Console.ReadLine();
+        }
+
+        private static void OneDimArray(Int32 length, Int32 min, Int32 max)
+        {
+            throw new NotImplementedException();
         }
     }
 }

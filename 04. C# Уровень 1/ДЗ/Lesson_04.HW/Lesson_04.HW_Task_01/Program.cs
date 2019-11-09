@@ -1,5 +1,5 @@
 ﻿using System;
-using UserInteraction;
+using mlConsole;
 
 /* Описание задания:
 Ганов Александр Анатольевич
@@ -25,8 +25,8 @@ namespace Lesson_04.HW_Task_01
             Random rnd = new Random();
 
             for (int i = 0; i < arrLen; i++) arr[i] = rnd.Next(min, max);
-            ConsolePrintData.ArrPrint(arr,5);
-            Console.WriteLine($"\n\nПары, в которых только одно число делится на: {devider}");
+            PrintData.ArrPrint(arr,5);
+            Console.WriteLine($"\nПары, в которых только одно число делится на: {devider}");
             SearchPair(arr, devider);
             Console.ReadLine();
         }

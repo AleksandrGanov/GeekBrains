@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C679D0C-2EA1-4F01-9E91-1860F8D09F32}</ProjectGuid>
+    <ProjectGuid>{DA3A49CD-DD5C-4195-AAB7-A16AC8A7F4B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson_04.HW_Task_03</RootNamespace>
-    <AssemblyName>Lesson_04.HW_Task_03</AssemblyName>
+    <RootNamespace>Lesson_04.HW_Task_04</RootNamespace>
+    <AssemblyName>Lesson_04.HW_Task_04</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyLibraries\MyLibraries.csproj">
-      <Project>{fdeaae14-9599-4e55-91a4-498803329d52}</Project>
-      <Name>MyLibraries</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

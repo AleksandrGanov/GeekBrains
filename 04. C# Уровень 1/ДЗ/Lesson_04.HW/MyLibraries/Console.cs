@@ -1,16 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
-/// <summary>
-/// 
-/// </summary>
-namespace UserInteraction
+namespace mlConsole
 {
-    public struct ConsoleGetData
+    public struct GetData
     {
         /// <summary>
         /// Реализует выдачу ответа "Да/Нет" на запрос пользователя
         /// </summary>
-        /// <param name="question">Вопросы, выводимый пользователю</param>
+        /// <param name="question">Вопрос, выдаваемый пользователю</param>
         /// <returns>булево True/False</returns>
         public bool AnsYesNo(string question)
         {
@@ -82,15 +80,14 @@ namespace UserInteraction
             return x;
         }
     }
-
-    public struct ConsolePrintData
+    public struct PrintData
     {
         /// <summary>
         /// Выводит в консоль содержимое одномерного массива
         /// </summary>
         /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
         /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
-        static public void ArrPrint(int [] arr,int rowLen)
+        static public void ArrPrint(int[] arr, int rowLen)
         {
             Console.Write($"Элементы массива ({arr.Length} шт.)");
             for (int i = 0; i < arr.Length; i++)
@@ -98,6 +95,26 @@ namespace UserInteraction
                 if (i % rowLen == 0) Console.Write("\n|");
                 Console.Write($"{arr[i],5}|");
             }
+            Console.WriteLine();
+        }
+        /// <summary>
+        /// Выводит в консоль содержимое Dictionary (|ключ|значение|)
+        /// </summary>
+        /// <param name="Dict">Dictionary, данные которого требуется вывести в консоль</param>
+        static public void DictPrint(Dictionary<int, int> dict)
+        {
+            string line = "-----";
+            string headerKey = "Key";
+            string headerValue = "Value";
+            Console.WriteLine($"Элементы словаря ({dict.Count} шт.)");
+            Console.WriteLine($"|{headerKey,5}|{headerValue,5}|");
+            Console.WriteLine($"|{line,5}|{line,5}|");
+            foreach (int el in dict.Keys)
+            {
+                dict.TryGetValue(el, out int v);
+                Console.WriteLine($"|{el,5}|{v,5}|");
+            }
+            Console.WriteLine();
         }
     }
 }
