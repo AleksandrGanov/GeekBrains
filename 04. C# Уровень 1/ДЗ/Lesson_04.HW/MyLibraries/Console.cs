@@ -83,11 +83,26 @@ namespace mlConsole
     public struct PrintData
     {
         /// <summary>
-        /// Выводит в консоль содержимое одномерного массива
+        /// Выводит в консоль содержимое одномерного массива (int)
         /// </summary>
         /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
         /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
         static public void ArrPrint(int[] arr, int rowLen)
+        {
+            Console.Write($"Элементы массива ({arr.Length} шт.)");
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (i % rowLen == 0) Console.Write("\n|");
+                Console.Write($"{arr[i],5}|");
+            }
+            Console.WriteLine();
+        }
+        /// <summary>
+        /// Выводит в консоль содержимое одномерного массива (string)
+        /// </summary>
+        /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
+        /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
+        static public void ArrPrint(string[] arr, int rowLen)
         {
             Console.Write($"Элементы массива ({arr.Length} шт.)");
             for (int i = 0; i < arr.Length; i++)

@@ -33,8 +33,8 @@ namespace Lesson_04.HW_Task_02
 
             Array.Clear(arr, 0, arrLen);
             arr = new OneDimArray(rnd.Next(1, arrLen / 2), min, max).GetArr();
-            FileOper.AppendToFile(str, arr);
-            FileOper.ReadFromFile(str);
+            FileIO.AppendToFile(str, arr);
+            FileIO.ReadFromFile(str);
             Console.ReadLine();
         }
 
