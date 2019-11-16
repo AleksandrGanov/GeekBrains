@@ -1,0 +1,6 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\Лекции\Lesson_04\Lesson_04.Exp_13\bin\Debug\Lesson_04.Exp_13.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\Лекции\Lesson_04\Lesson_04.Exp_13\bin\Debug\Lesson_04.Exp_13.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\Лекции\Lesson_04\Lesson_04.Exp_13\bin\Debug\Lesson_04.Exp_13.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\Лекции\Lesson_04\Lesson_04.Exp_13\obj\Debug\Lesson_04.Exp_13.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\Лекции\Lesson_04\Lesson_04.Exp_13\obj\Debug\Lesson_04.Exp_13.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\04. C# Уровень 1\Лекции\Lesson_04\Lesson_04.Exp_13\obj\Debug\Lesson_04.Exp_13.csprojAssemblyReference.cache
