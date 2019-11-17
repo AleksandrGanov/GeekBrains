@@ -21,9 +21,9 @@ namespace Lesson_04.Exp_04
         static void Main()
         {
             int[] myArray = { 0, -1, -2, 3, 4, 5, -6, -7, 8, -9 };
-            Print(10, myArray);
+            //Print(10, myArray);
             Change(10, myArray);
-            Print(10, myArray);
+            //Print(10, myArray);
             Console.ReadLine();
         }
     }
