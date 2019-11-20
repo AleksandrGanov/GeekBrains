@@ -1,4 +1,6 @@
-﻿using mlConsole;
+﻿// Some Methods to work with Arrays
+
+using mlConsole;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -50,7 +52,6 @@ namespace mlArray
                 init += step;
             }
         }
-
         /// <summary>
         /// Возвращает максимальное значение элементов массива из поля класса
         /// </summary>
@@ -128,7 +129,6 @@ namespace mlArray
                         dict.Add(a[i], ++v);
                     }
                 }
-
                 // перегружаем сортированный словарь
                 Dictionary<int, int> dict2 = new Dictionary<int, int>();
                 foreach (int el in dict.Keys)
@@ -180,7 +180,7 @@ namespace mlArray
             return s;
         }
     }
-    public static class FileIO
+    public struct FileIO
     {
         /// <summary>
         /// Метод записывает массив в файл добавлением к имеющимся данным
@@ -198,7 +198,7 @@ namespace mlArray
 
                 for (int i = 0; i < arr.Length; i++)
                 {
-                    if (i == 0 && (initStr ==null || initStr.Trim().Length ==0)) sw.Write($"{arr[i]}");
+                    if (i == 0 && (initStr == null || initStr.Trim().Length == 0)) sw.Write($"{arr[i]}");
                     else sw.Write($"\n{arr[i]}"); ;
                 }
                 sw.Close();
@@ -227,7 +227,7 @@ namespace mlArray
                     else sw.Write($"\n{arr[i]}");
                 }
                 sw.Close();
-                Console.WriteLine($"В файл \"{path.Replace("..\\"," ").Trim()}\" произведена запись массива");
+                Console.WriteLine($"В файл \"{path.Replace("..\\", " ").Trim()}\" произведена запись массива");
                 PrintData.ArrPrint(arr, 5);
                 Console.WriteLine();
             }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Some Methods to work with Files
+
+using System;
 using System.IO;
 
 namespace mlFile

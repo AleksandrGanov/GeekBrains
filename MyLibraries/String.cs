@@ -1,4 +1,6 @@
-﻿namespace mlString
+﻿// Some Methods to work with Strings
+
+namespace mlString
 {
     public struct CheckValues
     {
@@ -16,6 +18,4 @@
             return false;
         }
     }
-
-
 }
