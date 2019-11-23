@@ -10,8 +10,8 @@ namespace Lesson_08.Exp_05
         [STAThreadAttribute]
         static void Main(string[] args)
         {
-            BelieveOrNotBelieve inintForm = new BelieveOrNotBelieve();
-            Application.Run(inintForm);
+            BelieveOrNotBelieve initForm = new BelieveOrNotBelieve();
+            Application.Run(initForm);
         }
     }
 }

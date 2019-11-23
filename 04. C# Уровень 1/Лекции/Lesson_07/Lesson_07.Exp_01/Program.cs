@@ -1,23 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Пример windows MessageBox
 
-namespace Lesson_07.Exp_01
+using System.Windows.Forms;
+using System;
+
+class ShowForm
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
-            int i, j, s = 0;
-
-            for (i = 1, j = 5; i < j; ++i, --j)
-            {
-                s += i;
-            }
-            Console.WriteLine(s);
-            Console.ReadLine();
-        }
+        // MessageBox простейший способ вывода информации на экран
+        // У метода Show большое количество перезагрузок, с помощью
+        // которых можно управлять видом окна сообщения
+        MessageBox.Show("Сообщение из Windows Forms!");
+        MessageBox.Show("Сообщение из Windows Forms с заголовком", "Заголовок");
+        if (MessageBox.Show("Вы уверены, что хотите продолжить обучение?", "Заголовок",
+            MessageBoxButtons.OKCancel) == DialogResult.OK)
+            System.Console.WriteLine("Вы нажали OK");
+        else System.Console.WriteLine("Вы нажали Cancel");
+        System.Console.WriteLine("Можно выводить сообщения в консоль");
+        System.Console.WriteLine("Не стоит сейчас слишком задерживаться на изучение MessageBox.Show. У вас еще будет такая возможность");
+        System.Console.ReadKey();
     }
 }
