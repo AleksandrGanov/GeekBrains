@@ -92,55 +92,31 @@ namespace mlConsole
         /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
         /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
         /// <param name="width">минимальная ширина в символах выводимого элемента</param>
-        static public void ArrPrint(int [] arr, int rowLen, int width = 5)
+        static public void ArrPrint<T>(T [] arr, int rowLen, int width = 5)
         {
-            int len = 0;
-            StringBuilder msg = new StringBuilder();
+            if (typeof(T).ToString() != "System.Int32" ||
+                typeof(T).ToString() != "System.Double")
+            {
+                int len = 0;
+                StringBuilder msg = new StringBuilder();
 
-            Console.Write($"Элементы массива ({arr.Length} шт.)");
-            foreach (var item in arr)
-            {
-                if (String.Format("{0:F2}", item).Length > len)
-                    len = String.Format("{0:F2}", item).Length;
+                Console.Write($"Элементы массива ({arr.Length} шт.)");
+                foreach (var item in arr)
+                {
+                    if (String.Format("{0:F2}", item).Length > len)
+                        len = String.Format("{0:F2}", item).Length;
+                }
+                if (len < width) len = width;
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    msg.Clear().ToString();
+                    string elLen = msg.Append(' ', len - String.Format("{0:F2}", arr[i]).Length).ToString();
+                    if (i % rowLen == 0) Console.Write("\n|");
+                    Console.Write($"{elLen}{arr[i]:F2}|");
+                }
+                Console.WriteLine();
             }
-            if (len < width) len = width;
-            for (int i = 0; i < arr.Length; i++)
-            {
-                msg.Clear().ToString();
-                string elLen = msg.Append(' ', len - String.Format("{0:F2}", arr[i]).Length).ToString();
-                if (i % rowLen == 0) Console.Write("\n|");
-                Console.Write($"{elLen}{arr[i]:F2}|");
-            }
-            Console.WriteLine();
-        }
-        /// <summary>
-        /// Выводит в консоль содержимое одномерного массива
-        /// </summary>
-        /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
-        /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
-        /// <param name="width">минимальная ширина в символах выводимого элемента</param>
-        static public void ArrPrint(double[] arr, int rowLen, int width=5)
-        {
-            int len = 0;
-            StringBuilder msg = new StringBuilder();
-
-            Console.Write($"Элементы массива ({arr.Length} шт.)");
-            foreach (var item in arr)
-            {
-                if (String.Format("{0:F2}",item).Length > len)
-                    len = String.Format("{0:F2}", item).Length;
-            }
-
-            if (len < width) len = width;
-                        
-            for (int i = 0; i < arr.Length; i++)
-            {
-                msg.Clear().ToString();
-                string elLen = msg.Append(' ', len- String.Format("{0:F2}", arr[i]).Length).ToString();
-                if (i % rowLen == 0) Console.Write("\n|");
-                Console.Write($"{elLen}{arr[i]:F2}|");
-            }
-            Console.WriteLine();
+            else Console.WriteLine("Данный метод поддерживает: Int32, Double массивы"); ;
         }
         /// <summary>
         /// Выводит в консоль содержимое одномерного массива
@@ -158,9 +134,7 @@ namespace mlConsole
             {
                 if (item.Length > len) len = item.Length;
             }
-
             if (len < width) len = width;
-
             for (int i = 0; i < arr.Length; i++)
             {
                 msg.Clear().ToString();
