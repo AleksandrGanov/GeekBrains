@@ -14,16 +14,9 @@ namespace MyGame
     {
         static void Main()
         {
-            Form form = new Form();
-            form.Width = 800;
-            form.Height = 600;
-            Application.Run(form);
-
+            GrForm form = new GrForm();
             Game.Init(form);
-            Game.Draw();
-      
-            Star.Init(form);
-            // Star.Draw();
+            Application.Run(form);
         }
     }
 }

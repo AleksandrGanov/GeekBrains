@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseObject.cs" />
+    <Compile Include="Image_.cs" />
     <Compile Include="Star.cs" />
     <Compile Include="GrForm.cs">
       <SubType>Form</SubType>
@@ -68,6 +69,11 @@
       <Project>{fdeaae14-9599-4e55-91a4-498803329d52}</Project>
       <Name>MyLibraries</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GrForm.resx">
+      <DependentUpon>GrForm.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
