@@ -4,9 +4,12 @@ namespace MyGame
 {
     class Image_ : BaseObject
     {
-        Image _image = Image.FromFile("photo.jpg");
+        Image _image;
 
-        public Image_(Point pos, Point dir, Size size) : base(pos, dir, size) { }
+        public Image_(Point pos, Point dir, Size size) : base(pos, dir, size)
+        {
+            _image = Image.FromFile("photo.jpg");
+        }
 
         public override void Draw()
         {
