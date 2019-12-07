@@ -6,6 +6,8 @@ namespace MyGame
 {
     static class Game
     {
+        private static Bullet _bullet;
+        private static Asteroid[] _asteroids;
         public static BufferedGraphics Buffer;
         public static BufferedGraphicsContext _context;
         public static BaseObject[] _objs;
@@ -13,6 +15,10 @@ namespace MyGame
         public static int Height { get; set; }
         public static int Width { get; set; }
 
+        /// <summary>
+        /// Метод инициализирует игру, устанавливает параметры игрового поля, запускает таймер
+        /// </summary>
+        /// <param name="form"></param>
         public static void Init(Form form)
         {
             _context = BufferedGraphicsManager.Current;
@@ -26,10 +32,16 @@ namespace MyGame
             timer.Start();
             timer.Tick += Timer_Tick;
         }
+
+        /// <summary>
+        /// Метод создает массив обьектов разного типа для их дальнейшей прорисовки
+        /// </summary>
         public static void Load()
         {
+
+            // создаем внешний фон: базовые объекты, звезды, изображения
             Random rnd = new Random();
-            _objs = new BaseObject[1000];
+            _objs = new BaseObject[50];
             for (int i = 0; i < _objs.Length; i++)
             {
                 int choice = rnd.Next(1, 100);
@@ -39,34 +51,74 @@ namespace MyGame
                     int size = rnd.Next(5, 12);
                     _objs[i] = new BaseObject(new Point(20, i * rnd.Next(1, 25)), new Point(rnd.Next(1, 7) - i, rnd.Next(1, 7) - i), new Size(size, size));
                 }
-                else if (choice >= 60 && choice <= 90)
+                else 
                 {
                     int size = rnd.Next(10, 20);
-                    _objs[i] = new Star(new Point(20, i * rnd.Next(1, 25)), new Point(rnd.Next(5, 15) - i, rnd.Next(1, 7) - i), new Size(size, size));
+                    _objs[i] = new Star(new Point(20, rnd.Next(1, Height)), new Point(rnd.Next(5, 15), rnd.Next(1, 7)), new Size(size, size));
                 }
-                else if (choice > 90)
-                {
-                    int size = rnd.Next(10, 20);
-                    _objs[i] = new Image_(new Point(20, i * rnd.Next(1, 20)), new Point(i, i), new Size(size, size));
-                }
+            }
 
+            // создаем Пули и Астероиды
+            _bullet = new Bullet(new Point(0, 500), new Point(25, 0), new Size(8, 5));
+            _asteroids = new Asteroid[20];
+            for (var i = 0; i < _asteroids.Length; i++)
+            {
+                int r = rnd.Next(1, 50);
+                _asteroids[i] = new Asteroid(new Point(1000, rnd.Next(0, Game.Height)), new Point(-rnd.Next(1,5), rnd.Next(1, 5)), new Size(r, r));
             }
         }
+
+        /// <summary>
+        /// Метод отрисовывает каждый объект массива на игровом поле
+        /// </summary>
         public static void Paint()
         {
             Buffer.Graphics.Clear(Color.Black);
             foreach (BaseObject obj in _objs)
             {
-                obj.Draw();
+                try
+                {
+                    obj.Draw();
+                }
+                catch { }
             }
+            foreach (Asteroid aster in _asteroids)
+            {
+                aster.Draw();
+            }
+            _bullet.Draw();
             Buffer.Render();
         }
+
+        /// <summary>
+        /// Метод меняет позиции каждого объекта на игровом поле
+        /// </summary>
         public static void UpdatePosition()
         {
             foreach (BaseObject obj in _objs)
-                obj.Update();
+                try
+                {
+                    obj.Update();
+                }
+                catch { }
+            foreach (Asteroid aster in _asteroids)
+            {
+                aster.Update();
+                if (aster.Collision(_bullet))
+                { 
+                    System.Media.SystemSounds.Hand.Play();
+                    Console.WriteLine("столкновение пули и астероида");
+                }
+            }
+            _bullet.Update();
+
         }
 
+        /// <summary>
+        /// Метод, инициализируемый таймер для запуска отрисовки и изменения позиции
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private static void Timer_Tick(object sender, EventArgs e)
         {
             Paint();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_01.HW\\MyLibraries\\MyLibraries.csproj": {}
+    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_02.HW\\MyLibraries\\MyLibraries.csproj": {}
   },
   "projects": {
-    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_01.HW\\MyLibraries\\MyLibraries.csproj": {
+    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_02.HW\\MyLibraries\\MyLibraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_01.HW\\MyLibraries\\MyLibraries.csproj",
+        "projectUniqueName": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_02.HW\\MyLibraries\\MyLibraries.csproj",
         "projectName": "MyLibraries",
-        "projectPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_01.HW\\MyLibraries\\MyLibraries.csproj",
+        "projectPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_02.HW\\MyLibraries\\MyLibraries.csproj",
         "packagesPath": "C:\\Users\\Ганов\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_01.HW\\MyLibraries\\obj\\",
+        "outputPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_02.HW\\MyLibraries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

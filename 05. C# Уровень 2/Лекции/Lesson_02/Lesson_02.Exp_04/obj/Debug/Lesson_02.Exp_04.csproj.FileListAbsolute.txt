@@ -1,0 +1,5 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\Лекции\Lesson_02\Lesson_02.Exp_04\bin\Debug\Lesson_02.Exp_04.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\Лекции\Lesson_02\Lesson_02.Exp_04\bin\Debug\Lesson_02.Exp_04.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\Лекции\Lesson_02\Lesson_02.Exp_04\bin\Debug\Lesson_02.Exp_04.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\Лекции\Lesson_02\Lesson_02.Exp_04\obj\Debug\Lesson_02.Exp_04.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\Лекции\Lesson_02\Lesson_02.Exp_04\obj\Debug\Lesson_02.Exp_04.pdb

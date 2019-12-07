@@ -48,13 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseObject.cs" />
-    <Compile Include="Image_.cs" />
-    <Compile Include="Star.cs" />
-    <Compile Include="GrForm.cs">
+    <Compile Include="Interfaces.cs" />
+    <Compile Include="Objects\BaseObject.cs" />
+    <Compile Include="Objects\Asteroid.cs" />
+    <Compile Include="Objects\Bullet.cs" />
+    <Compile Include="Objects\Image_.cs" />
+    <Compile Include="Objects\Star.cs" />
+    <Compile Include="Forms\GrForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GrForm.Designer.cs">
+    <Compile Include="Forms\GrForm.Designer.cs">
       <DependentUpon>GrForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Game.cs" />
@@ -71,9 +74,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="GrForm.resx">
+    <EmbeddedResource Include="Forms\GrForm.resx">
       <DependentUpon>GrForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
