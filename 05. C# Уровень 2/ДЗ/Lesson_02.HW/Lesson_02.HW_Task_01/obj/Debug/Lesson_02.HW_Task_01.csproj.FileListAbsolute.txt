@@ -1,11 +1,9 @@
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\MyGame.exe.config
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\MyGame.exe
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\MyGame.pdb
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\MyLibraries.dll
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\MyLibraries.pdb
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\Lesson_02.HW_Task_01.csprojAssemblyReference.cache
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\MyGame.GrForm.resources
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\Lesson_02.HW_Task_01.csproj.GenerateResource.cache
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\Lesson_02.HW_Task_01.csproj.CopyComplete
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\MyGame.exe
-D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\MyGame.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\Lesson_02.HW_Task_01.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\Lesson_02.HW_Task_01.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\bin\Debug\Lesson_02.HW_Task_01.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\Lesson_02.HW_Task_01.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_01\obj\Debug\Lesson_02.HW_Task_01.pdb

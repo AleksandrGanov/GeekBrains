@@ -1,7 +1,9 @@
 ﻿// Exeptions: Перехват исключений. Использование блока finall
 
-using System;
 // Пример перехвата исключения в зависимости от типа
+
+using System;
+
 class Program
 {
     static void Main(string[] args)
