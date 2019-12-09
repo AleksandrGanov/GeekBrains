@@ -1,0 +1,6 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -1,10 +1,13 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 
 namespace MyGame
 {
     class Asteroid : BaseObject
     {
         Brush brush = Brushes.Yellow;
+        private readonly Object GS;
+
         public int Power { get; set; }
 
         public Asteroid(Point pos, Point dir, Size size) : base(pos, dir, size) { }
@@ -37,9 +40,9 @@ namespace MyGame
         /// <param name="bullet">Текущий экземпляр класса Asteroid</param>
         public void Update(Asteroid aster)
         {
-            Pos.X = Game.Width - aster.Size.Width;
-            Pos.Y = aster.Pos.Y;
-            brush = Brushes.Green;
+            //Pos.X = Game.Width - aster.Size.Width;
+            //Pos.Y = aster.Pos.Y;
+            //brush = Brushes.Green;
         }
     }
 }
