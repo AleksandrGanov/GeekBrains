@@ -30,7 +30,8 @@ namespace Interfaces_060_MyClass_and_Foreach
         }
         
         // Реализуем интерфейс IEnumerable
-        // Этот интерфейс должен только вернуть объект типа IEnumerator, который будет заниматься перечислением элементов
+        
+            // Этот интерфейс должен только вернуть объект типа IEnumerator, который будет заниматься перечислением элементов
         public IEnumerator GetEnumerator()
         {
             return this;
