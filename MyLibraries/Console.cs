@@ -7,14 +7,14 @@ using System.Diagnostics;
 
 namespace mlConsole
 {
-    public struct GetData
+    public static class GetData
     {
         /// <summary>
         /// Реализует выдачу ответа "Да/Нет" на запрос пользователя
         /// </summary>
         /// <param name="question">Вопрос, выдаваемый пользователю</param>
         /// <returns>булево True/False</returns>
-        public bool AnsYesNo(string question)
+        public static bool AnsYesNo(string question)
         {
             string ans;
             ans = AskUser(question).ToLower();
@@ -29,12 +29,12 @@ namespace mlConsole
         /// </summary>
         /// <param name="str">вопрос пользователю</param>
         /// <returns>ответ пользователя</returns>
-        public string AskUser(string str)
+        public static string AskUser(string str)
         {
             Console.Write(str + ": ");
             return Console.ReadLine();
         }
-        public int GetDenominator(string str)
+        public static int GetDenominator(string str)
         {
             int den;
             do
@@ -56,7 +56,7 @@ namespace mlConsole
         /// </summary>
         /// <param name="msg">Сообщение, выдаваемое пользователю</param>
         /// <returns>Введенное в консоль значение</returns>
-        public int GetValueInt(string msg)
+        public static int GetValueInt(string msg)
         {
             int x; bool flag;
             do
@@ -72,7 +72,7 @@ namespace mlConsole
         /// </summary>
         /// <param name="msg">Сообщение, выдаваемое пользователю</param>
         /// <returns>Введенное в консоль значение</returns>
-        public double GetValueDouble(string msg)
+        public static double GetValueDouble(string msg)
         {
             double x; bool flag;
             do
@@ -84,7 +84,7 @@ namespace mlConsole
             return x;
         }
     }
-    public struct PrintData
+    public static class PrintData
     {
         /// <summary>
         /// Выводит в консоль содержимое одномерного массива
@@ -92,7 +92,7 @@ namespace mlConsole
         /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
         /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
         /// <param name="width">минимальная ширина в символах выводимого элемента</param>
-        static public void ArrPrint<T>(T [] arr, int rowLen, int width = 5)
+        public static void ArrPrint<T>(T [] arr, int rowLen, int width = 5)
         {
             if (typeof(T).ToString() != "System.Int32" ||
                 typeof(T).ToString() != "System.Double")
@@ -124,7 +124,7 @@ namespace mlConsole
         /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
         /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
         /// <param name="width">минимальная ширина в символах выводимого элемента</param>
-        static public void ArrPrint(string[] arr, int rowLen, int width = 5)
+        public static void ArrPrint(string[] arr, int rowLen, int width = 5)
         {
             int len = 0;
             StringBuilder msg = new StringBuilder();
@@ -149,7 +149,7 @@ namespace mlConsole
         /// Выводит в консоль содержимое Dictionary (|ключ|значение|)
         /// </summary>
         /// <param name="Dict">Dictionary, данные которого требуется вывести в консоль</param>
-        static public void DictPrint(Dictionary<int, int> dict)
+        public static void DictPrint(Dictionary<int, int> dict)
         {
             string line = "-----";
             string headerKey = "Key";
@@ -168,7 +168,7 @@ namespace mlConsole
         /// Выводит в консоль содержимое Dictionary (|ключ|значение|)
         /// </summary>
         /// <param name="Dict">Dictionary, данные которого требуется вывести в консоль</param>
-        static public void DictPrint(Dictionary<string, int> dict)
+        public static void DictPrint(Dictionary<string, int> dict)
         {
             string line = "-----";
             string headerKey = "Key";

@@ -1,0 +1,3 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson_01\Lesson_01.Exp_01\obj\Debug\Lesson01.Exp01.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson_01\Lesson_01.Exp_01\obj\Debug\Lesson_01.Exp_01.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson_01\Lesson_01.Exp_01\obj\Debug\Lesson_01.Exp_01.pdb
