@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01.Exp01", "Lesson_01
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 01", "Lesson 01", "{4D96CB14-165A-4972-B0FE-ACEB4ED5B716}"
 	ProjectSection(SolutionItems) = preProject
-		Lesson_01.ReadMe.txt = Lesson_01.ReadMe.txt
+		Lesson01.ReadMe.txt = Lesson01.ReadMe.txt
 	EndProjectSection
 EndProject
 Global
