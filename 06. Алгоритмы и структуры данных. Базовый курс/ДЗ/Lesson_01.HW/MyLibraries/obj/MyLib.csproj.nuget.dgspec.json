@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\My Codes\\MyLib\\MyLib.csproj": {}
+    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLibraries\\MyLib.csproj": {}
   },
   "projects": {
-    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\My Codes\\MyLib\\MyLib.csproj": {
+    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLibraries\\MyLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\My Codes\\MyLib\\MyLib.csproj",
+        "projectUniqueName": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLibraries\\MyLib.csproj",
         "projectName": "MyLib",
-        "projectPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\My Codes\\MyLib\\MyLib.csproj",
+        "projectPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLibraries\\MyLib.csproj",
         "packagesPath": "C:\\Users\\Ганов\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\My Codes\\MyLib\\obj\\",
+        "outputPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLibraries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

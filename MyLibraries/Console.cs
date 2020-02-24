@@ -17,7 +17,7 @@ namespace mlConsole
         public static bool AnsYesNo(string question)
         {
             string ans;
-            ans = AskUser(question).ToLower();
+            ans = AskUser(question + "Y/N").ToLower();
             while (!(ans == "y" || ans == "n"))
             {
                 ans = AskUser("Введите \"y\" или \"n\", другие ответы не допускаются").ToLower();
@@ -63,6 +63,22 @@ namespace mlConsole
             {
                 Console.Write(msg);
                 flag = int.TryParse(Console.ReadLine(), out x);
+            }
+            while (!flag);  //  Пока false(!false=true), повторять цикл
+            return x;
+        }
+        /// <summary>
+        /// Запрос значения "UInt" через консоль с проверкой на тип значения
+        /// </summary>
+        /// <param name="msg">Сообщение, выдаваемое пользователю</param>
+        /// <returns>Введенное в консоль значение</returns>
+        public static uint GetValueUInt(string msg)
+        {
+            uint x; bool flag;
+            do
+            {
+                Console.Write(msg);
+                flag = uint.TryParse(Console.ReadLine(), out x);
             }
             while (!flag);  //  Пока false(!false=true), повторять цикл
             return x;
