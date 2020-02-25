@@ -1,0 +1,8 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\bin\Debug\netstandard2.0\MyLib.deps.json
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\bin\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\bin\Debug\netstandard2.0\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.AssemblyInfoInputs.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.AssemblyInfo.cs
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.pdb
