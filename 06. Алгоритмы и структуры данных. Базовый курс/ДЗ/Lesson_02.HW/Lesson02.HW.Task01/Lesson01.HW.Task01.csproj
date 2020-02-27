@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BDA32A96-7B37-4706-9ED8-5ABC2DAC54D8}</ProjectGuid>
+    <ProjectGuid>{F4493E3B-73D5-439D-A411-F5D0DA2371F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson_01.Exp_01</RootNamespace>
-    <AssemblyName>Lesson_01.Exp_01</AssemblyName>
+    <RootNamespace>Lesson01.HW.Task01</RootNamespace>
+    <AssemblyName>Lesson01.HW.Task01</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,8 +55,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\MyLibraries\MyLib.csproj">
-      <Project>{8761bb15-2e7f-419b-80bb-46070f8bf466}</Project>
+    <ProjectReference Include="..\MyLib\MyLib.csproj">
+      <Project>{4ac3fc6a-ad87-4dcc-9062-85852edeb49c}</Project>
       <Name>MyLib</Name>
     </ProjectReference>
   </ItemGroup>
