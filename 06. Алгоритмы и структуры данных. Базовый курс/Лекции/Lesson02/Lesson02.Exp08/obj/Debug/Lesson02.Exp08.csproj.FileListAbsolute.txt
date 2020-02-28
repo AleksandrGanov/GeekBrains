@@ -1,0 +1,5 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson02\Lesson02.Exp08\bin\Debug\Lesson02.Exp08.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson02\Lesson02.Exp08\bin\Debug\Lesson02.Exp08.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson02\Lesson02.Exp08\bin\Debug\Lesson02.Exp08.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson02\Lesson02.Exp08\obj\Debug\Lesson02.Exp08.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson02\Lesson02.Exp08\obj\Debug\Lesson02.Exp08.pdb

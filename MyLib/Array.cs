@@ -7,6 +7,18 @@ using System.IO;
 
 namespace mlArray
 {
+    public static class ArrMaker
+    {
+        static readonly Random rnd = new Random();
+
+        public static int[] IntRndArray(int n, int min, int max)
+        {
+            int[] arr = new int[n];    
+            for (int i = 0; i < n; i++) arr[i] = rnd.Next(min,max);
+            return arr;
+        }
+
+    }
     public class OneDimArray
     {
         readonly int[] a;
@@ -180,7 +192,7 @@ namespace mlArray
             return s;
         }
     }
-    public struct FileIO
+    public struct ArrFileIO
     {
         /// <summary>
         /// Метод записывает массив в файл добавлением к имеющимся данным
