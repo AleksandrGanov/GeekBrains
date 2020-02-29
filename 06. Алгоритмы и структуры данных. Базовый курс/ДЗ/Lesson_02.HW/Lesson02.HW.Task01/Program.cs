@@ -31,8 +31,7 @@ namespace Lesson02.HW.Task01
             {
                 rem = num % 2;
                 num /= 2;
-                res =rem.ToString()+res;
-                
+                res =rem.ToString()+res;   
             }
             return res;
         }
