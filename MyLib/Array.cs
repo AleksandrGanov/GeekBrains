@@ -17,7 +17,20 @@ namespace mlArray
             for (int i = 0; i < n; i++) arr[i] = rnd.Next(min,max);
             return arr;
         }
-
+        public static int[] IntRndArraySorted(int n, int min, int max)
+        {
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) arr[i] = rnd.Next(min, max);
+            Array.Sort(arr);
+            return arr;
+        }
+        public static int[] IntRndArrayWithBarrier(int n, int min, int max, int barValue)
+        {
+            int[] arr = new int[n+1];
+            for (int i = 0; i < n; i++) arr[i] = rnd.Next(min, max);
+            arr[n] = barValue;
+            return arr;
+        }
     }
     public class OneDimArray
     {

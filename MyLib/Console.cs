@@ -3,7 +3,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Diagnostics;
 
 namespace mlConsole
 {
@@ -108,7 +107,7 @@ namespace mlConsole
         /// <param name="arr">массив, данные которого требуется вывести в консоль</param>
         /// <param name="rowLen">количество элементов, отображаемых в строке консоли</param>
         /// <param name="width">минимальная ширина в символах выводимого элемента</param>
-        public static void ArrPrint<T>(T [] arr, int rowLen, int width = 5)
+        public static void ArrPrint<T>(T[] arr, int rowLen, int width = 5, bool printElementsNumber = true)
         {
             if (typeof(T).ToString() != "System.Int32" ||
                 typeof(T).ToString() != "System.Double")
@@ -116,7 +115,7 @@ namespace mlConsole
                 int len = 0;
                 StringBuilder msg = new StringBuilder();
 
-                Console.Write($"Элементы массива ({arr.Length} шт.)");
+                if (printElementsNumber) Console.Write($"Элементы массива ({arr.Length} шт.)");
                 foreach (var item in arr)
                 {
                     if (String.Format("{0:F2}", item).Length > len)
