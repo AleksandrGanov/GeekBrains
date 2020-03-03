@@ -1,0 +1,12 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\bin\Debug\Lesson03.Exp09.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\bin\Debug\Lesson03.Exp09.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\bin\Debug\Lesson03.Exp09.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\bin\Debug\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\bin\Debug\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\obj\Debug\Lesson03.Exp09.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\obj\Debug\Lesson03.Exp09.csproj.CopyComplete
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\obj\Debug\Lesson03.Exp09.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03.Exp09\obj\Debug\Lesson03.Exp09.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp09\obj\Debug\Lesson03.Exp09.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp09\obj\Debug\Lesson03.Exp09.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp09\obj\Debug\Lesson03.Exp09.pdb

@@ -159,7 +159,7 @@ namespace mlConsole
             }
             Console.WriteLine();
         }
-
+ 
         /// <summary>
         /// Выводит в консоль содержимое Dictionary (|ключ|значение|)
         /// </summary>
@@ -197,6 +197,23 @@ namespace mlConsole
                 Console.WriteLine($"|{el,20}|{v,5}|");
             }
             Console.WriteLine();
+        }
+
+        /// <summary>
+        /// Метод вывод построчно на печать процедура обмена элементов int-массива
+        /// </summary>
+        /// <param name="a">обмениваемый элемент массива №1</param>
+        /// <param name="b">обмениваемый элемент массива №2</param>
+        /// <param name="arr">int-массив, в котором обмениваются элементы</param>
+        public static void PrintSwap(int a, int b, int[] arr)
+        {
+            ArrPrint<int>(arr, 15, 5, false);
+            Console.CursorTop -= 1;
+            Console.CursorLeft = 7 * arr.Length - (arr.Length - 2);
+            string mes = string.Empty;
+            //if (a < b) mes = "Прямой проход";
+            //else mes = "Обратный проход";
+            Console.Write($"{a + 1}<>{b + 1} {mes}");
         }
     }
 }

@@ -1,0 +1,9 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\bin\Debug\Lesson03.Exp08.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\bin\Debug\Lesson03.Exp08.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\bin\Debug\Lesson03.Exp08.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\bin\Debug\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\bin\Debug\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\obj\Debug\Lesson03.Exp08.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\obj\Debug\Lesson03.Exp08.csproj.CopyComplete
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\obj\Debug\Lesson03.Exp08.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\Лекции\Lesson03\Lesson03.Exp08\obj\Debug\Lesson03.Exp08.pdb

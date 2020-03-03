@@ -37,7 +37,7 @@ namespace Lesson03.Exp03
             else
             {
                 Console.WriteLine("Искомое значение не найдено");
-                return 0;
+                return -1;
             }
         }
     }
