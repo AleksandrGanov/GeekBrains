@@ -30,7 +30,6 @@ namespace Lesson03.Exp08
             tv2 = DateTime.Now;
             TimeSpan rowlTime = WorkingTime(tv1, tv2);
 
-            string.Compare
 
             Console.WriteLine($"Заполнение СТРОКАМИ в {colTime.TotalMilliseconds/rowlTime.TotalMilliseconds:F2} раз быстрее");
 
