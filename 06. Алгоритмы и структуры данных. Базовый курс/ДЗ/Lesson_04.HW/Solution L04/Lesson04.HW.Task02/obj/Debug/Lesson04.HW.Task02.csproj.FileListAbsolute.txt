@@ -1,0 +1,8 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\bin\Debug\Lesson04.HW.Task02.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\bin\Debug\Lesson04.HW.Task02.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\bin\Debug\Lesson04.HW.Task02.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\bin\Debug\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\bin\Debug\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\obj\Debug\Lesson04.HW.Task02.csproj.CopyComplete
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\obj\Debug\Lesson04.HW.Task02.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_04.HW\Solution L04\Lesson04.HW.Task02\obj\Debug\Lesson04.HW.Task02.pdb

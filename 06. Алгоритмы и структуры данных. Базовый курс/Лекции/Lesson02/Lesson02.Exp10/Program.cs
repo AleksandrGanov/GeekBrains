@@ -8,7 +8,7 @@ namespace Lesson02.Exp10
     {
         static readonly int wordLen = 3;
         static readonly string alfabet = "more";
-        static  int counter = 0;
+        static int counter = 0;
 
         static void Main()
         {

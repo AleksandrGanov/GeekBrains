@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "MyLib": {
+      "commandName": "Project"
+    }
+  }
+}
