@@ -1,0 +1,24 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\bin\Debug\netstandard2.0\MyLib.deps.json
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\bin\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\bin\Debug\netstandard2.0\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.AssemblyInfoInputs.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.AssemblyInfo.cs
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLibraries\obj\Debug\netstandard2.0\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\bin\Debug\netstandard2.0\MyLib.deps.json
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\bin\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\bin\Debug\netstandard2.0\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\obj\Debug\netstandard2.0\MyLib.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\obj\Debug\netstandard2.0\MyLib.AssemblyInfoInputs.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\obj\Debug\netstandard2.0\MyLib.AssemblyInfo.cs
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\obj\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\MyLib\obj\Debug\netstandard2.0\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\bin\Debug\netstandard2.0\MyLib.deps.json
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\bin\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\bin\Debug\netstandard2.0\MyLib.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\obj\Debug\netstandard2.0\MyLib.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\obj\Debug\netstandard2.0\MyLib.AssemblyInfoInputs.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\obj\Debug\netstandard2.0\MyLib.AssemblyInfo.cs
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\obj\Debug\netstandard2.0\MyLib.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\06. Алгоритмы и структуры данных. Базовый курс\ДЗ\Lesson_06.HW\Solution L06\MyLib\obj\Debug\netstandard2.0\MyLib.pdb
