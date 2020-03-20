@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnotherLabelExists" xml:space="preserve">
+    <value>Postoji još jedna oznaka sa istim imenom '{0}'</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="AnotherSubroutineExists" xml:space="preserve">
+    <value>Postoji još jedan podprogram sa istim imenom '{0}'</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="ArgumentNumberMismatch" xml:space="preserve">
+    <value>Operacija '{0}.{1} je navedena {2} argumentima, ali je potrebno {3} argumenata.</value>
+    <comment>0: Type Name, 1: Method Name, 2: Actual Arguments, 3: Expected Arguments</comment>
+  </data>
+  <data name="ConditionExpected" xml:space="preserve">
+    <value>Ovdje se očekuje uvjet.</value>
+  </data>
+  <data name="ElseIfUnexpected" xml:space="preserve">
+    <value>Elself naredba je valjana samo kada je kombinirano sa if.. Then naredbom. Nije predviđena na ovom mjestu.</value>
+  </data>
+  <data name="EndForExpected" xml:space="preserve">
+    <value>Očekivano EndFor ali ne može pronaći niti jedan na pravom mjestu.</value>
+  </data>
+  <data name="EndIfExpected" xml:space="preserve">
+    <value>Očekivano EndIf ali ne može pronaći niti jedan na pravom mjestu.</value>
+  </data>
+  <data name="EndSubExpected" xml:space="preserve">
+    <value>Očekivani EndSub ali ne može pronaći niti jedan na pravome mjestu.</value>
+  </data>
+  <data name="EndWhileExpected" xml:space="preserve">
+    <value>Očekivano EndWhile ali ne može pronaći niti jedan na pravome mjestu.</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>Ne može pronaći događaj '{0}' in '{1}'.</value>
+    <comment>0: Event Name, 1: Type Name</comment>
+  </data>
+  <data name="ExpressionExpected" xml:space="preserve">
+    <value>Očekuje se izraz.</value>
+  </data>
+  <data name="ExpressionExpectedAfter" xml:space="preserve">
+    <value>Očekuje se izraz poslje {0}.</value>
+  </data>
+  <data name="IdentifierExpected" xml:space="preserve">
+    <value>Očekivana varijabla ili objekt na ovoj lokaciji.</value>
+  </data>
+  <data name="VariableNotInitialized" xml:space="preserve">
+    <value>Varijabla '{0}' je upotrijebljena, ali njena vrijenost nije pridodana. Jeste li sigurni da ste pravilno napisali?</value>
+    <comment>0: Variable Name</comment>
+  </data>
+  <data name="LabelNotFound" xml:space="preserve">
+    <value>Ne mogu pronaći oznaku '{0}' korištenu u Goto naredbi</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="LoadReferenceFailed" xml:space="preserve">
+    <value>Ne mogu učitati referencu {0}.</value>
+  </data>
+  <data name="MethodNotFound" xml:space="preserve">
+    <value>Ne mogu pronaći operacije '{0}' u '{1}'</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>Svojstvo '{0}' u '{1}' je read-only i ne može biti pridruženo vrijednosti.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsWriteOnly" xml:space="preserve">
+    <value>Svojstvo '{0}' u '{1}' je write-only i ne može biti pridruženo očekivanoj vrijednosti.</value>
+  </data>
+  <data name="PropertyNotFound" xml:space="preserve">
+    <value>Ne mogu pronaći Svojstvo '{0}' u '{1}'.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="ReturnValueExpectedFromVoidMethod" xml:space="preserve">
+    <value>Operacija '{0}.{1}' je očekivana povratna vrijednost, ali ne vraća ništa.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="SubroutineEventAssignment" xml:space="preserve">
+    <value>Potprogram '{0}' može biti pridružen samo događaju.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineNotDefined" xml:space="preserve">
+    <value>Potprogram '{0}' nije definiran.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineUsedAsVariable" xml:space="preserve">
+    <value>{0}'  je Potprogram, ali je korištena kao varijabla.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="TokenExpected" xml:space="preserve">
+    <value>Očekivano {0} ovdje, ali ga je nemoguće pronaći.</value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>Ne mogu pronaći objekt '{0}'.</value>
+    <comment>0: Type Name</comment>
+  </data>
+  <data name="UnexpectedMethodCallEOL" xml:space="preserve">
+    <value>Primjećen nepredviđeni kraj retka parsing metoda poziva.</value>
+  </data>
+  <data name="UnexpectedTokenAtLocation" xml:space="preserve">
+    <value>{0} neočekivano na ovoj lokaciji.</value>
+  </data>
+  <data name="UnexpectedTokenFound" xml:space="preserve">
+    <value>Neočekivani znak {0} pronađen.</value>
+  </data>
+  <data name="UnrecognizedStatement" xml:space="preserve">
+    <value>Ne prepoznatljiva naredba primjećena.</value>
+  </data>
+  <data name="DocumentModified" xml:space="preserve">
+    <value>Program koji zatvarate je promjenjen. Odaberite Da ako ga želite spremiti; Ne za odbaciti promjene i Odustani za napuštanje okvira.</value>
+  </data>
+  <data name="FailedToImportFromWeb" xml:space="preserve">
+    <value>Neuspjšno ubacivanja programa sa mreže.</value>
+  </data>
+  <data name="FailedToPublishToWeb" xml:space="preserve">
+    <value>Neuspješno objavljivanja programa na mrežu.</value>
+  </data>
+  <data name="ImportFromWeb" xml:space="preserve">
+    <value>Ubaci program sa mreže.</value>
+  </data>
+  <data name="ImportFromWebFailedReason" xml:space="preserve">
+    <value>Određena datoteka nije pronađena na serveru. Molimo provjerite link i probajte ponovo.</value>
+  </data>
+  <data name="ImportLocationOfProgramOnWeb" xml:space="preserve">
+    <value>Molimo unesite programski ID.</value>
+  </data>
+  <data name="LocationOfProgramOnWeb" xml:space="preserve">
+    <value>Ispod je ID vašeg program koji možete djeliti sa prijateljima.</value>
+  </data>
+  <data name="ProgramRunning" xml:space="preserve">
+    <value>Vaš program ({0})  je započeo sa radom.</value>
+  </data>
+  <data name="PublishedToWeb" xml:space="preserve">
+    <value>Vaš program je objavljen na mreži.</value>
+  </data>
+  <data name="PublishToWebFailedReason" xml:space="preserve">
+    <value>Vaš program nije objavljen na serveru. Prazan je ili predugačak.</value>
+  </data>
+  <data name="ReasonForFailure" xml:space="preserve">
+    <value>Primjećena je sljedeća greška                                                                                                     {0}</value>
+    <comment>0: Error details</comment>
+  </data>
+  <data name="SaveDocumentBeforeClosing" xml:space="preserve">
+    <value>Da li želite spremiti ovaj dokument prije zatvaranja?</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>Vaš program ne može bit spremljen zbog sljedećeg razloga:</value>
+  </data>
+  <data name="SaveFailedReason" xml:space="preserve">
+    <value>{0}                                                                                                                                              Da li želite spremiti kao drugu datoteku?</value>
+    <comment>{0} = Exception message</comment>
+  </data>
+  <data name="SmallBasicFileFilter" xml:space="preserve">
+    <value>Small Basic datoteke (*.smallbasic)</value>
+  </data>
+  <data name="EndProgramCommand" xml:space="preserve">
+    <value>Kraj programa</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Ne mogu pronaći datoteku {0}.</value>
+    <comment>0: File Name</comment>
+  </data>
+  <data name="ImportProgramCommand" xml:space="preserve">
+    <value>Uvesti</value>
+  </data>
+  <data name="OverlayCloseAtEnd" xml:space="preserve">
+    <value>Prekrivanje će se automatski zatvoriti kada završite sa radom programa.</value>
+  </data>
+  <data name="PublishProgramCommand" xml:space="preserve">
+    <value>Objavi</value>
+  </data>
+  <data name="FormatProgramCommand" xml:space="preserve">
+    <value>Formatiraj program</value>
+  </data>
+  <data name="RunProgramCommand" xml:space="preserve">
+    <value>Pokreni (F5)</value>
+    <comment>F5 = Key</comment>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>Otvori</value>
+  </data>
+  <data name="SaveCommand" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="SaveAsCommand" xml:space="preserve">
+    <value>Spremi kao</value>
+  </data>
+  <data name="CutCommand" xml:space="preserve">
+    <value>Izrezati</value>
+  </data>
+  <data name="CopyCommand" xml:space="preserve">
+    <value>Kopirati</value>
+  </data>
+  <data name="PasteCommand" xml:space="preserve">
+    <value>Zaljepi</value>
+  </data>
+  <data name="UndoCommand" xml:space="preserve">
+    <value>Poništi</value>
+  </data>
+  <data name="RedoCommand" xml:space="preserve">
+    <value>Ponovo učiniti</value>
+  </data>
+  <data name="FindCommand" xml:space="preserve">
+    <value>Nađi</value>
+  </data>
+  <data name="FindNextCommand" xml:space="preserve">
+    <value>Pronađi sljedeće</value>
+  </data>
+  <data name="TextToSearch" xml:space="preserve">
+    <value>Tekst za traženje</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Microsoft Small Basic</value>
+    <comment>Do not localize</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Bez naslova</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zatvoriti</value>
+  </data>
+  <data name="WaitForProgramExit" xml:space="preserve">
+    <value>Možete ili čekati da vaš program završi ili možete pritisnuti gumb 'Završi Program',  gumb za zatvoriti program i vratiti se nazad u uređivanje.</value>
+  </data>
+  <data name="FoundErrors" xml:space="preserve">
+    <value>Ispričavamo se, našli smo neke greške...</value>
+  </data>
+  <data name="ClipboardGroup" xml:space="preserve">
+    <value>Međuspremnik</value>
+  </data>
+  <data name="FileGroup" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="ProgramGroup" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="WebGroup" xml:space="preserve">
+    <value>Mreža</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testiranje... 123</value>
+  </data>
+  <data name="FailedToCreateOutputFile" xml:space="preserve">
+    <value>Nije u mogućnosti stvoriti izlaznu datoteku</value>
+  </data>
+  <data name="FailedToCreateOutputFileReason" xml:space="preserve">
+    <value>Molimo prvo spremite datoteku i onda probajte pokrenuti ponovno                                                                                                                          Više informacija: {0}</value>
+  </data>
+  <data name="LocationOfProgramHRef" xml:space="preserve">
+    <value>http://smallbasic.com/program/?{0}</value>
+  </data>
+  <data name="LocationOfProgramListing" xml:space="preserve">
+    <value>Svoj program možete vidjeti na:</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Događaj</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>Ključna riječ</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operacija</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Svojstvo</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>Objekt</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>Varijabla</value>
+  </data>
+  <data name="Subroutine" xml:space="preserve">
+    <value>Potprogram</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Oznaka</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>U redu</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>_Da</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>_Ne</value>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>_Ponovno</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Zatvoriti</value>
+  </data>
+  <data name="Returns" xml:space="preserve">
+    <value>Povratak</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>Ništa</value>
+  </data>
+  <data name="ExportToVisualBasicCommand" xml:space="preserve">
+    <value>Diploma</value>
+  </data>
+  <data name="ButtonContinue" xml:space="preserve">
+    <value>N_astavi</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>Pretvaram...</value>
+  </data>
+  <data name="ExportToVB" xml:space="preserve">
+    <value>Izvezi u Visual Basic</value>
+  </data>
+  <data name="ExportToVBDescription" xml:space="preserve">
+    <value>Ovaj čarobnjak će pretvoriti vaš Small Basic program u Microsoft Visual Basic.</value>
+  </data>
+  <data name="FoundErrorsInProgram" xml:space="preserve">
+    <value>Greške su pronađene u programu.  Ispravite greške i pokušajte ponovo.</value>
+  </data>
+  <data name="Graduate" xml:space="preserve">
+    <value>Diploma</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>Pokretanje...</value>
+  </data>
+  <data name="OutputLocation" xml:space="preserve">
+    <value>Izlazna lokacija: </value>
+  </data>
+  <data name="VBNotFound" xml:space="preserve">
+    <value>Microsoft Visual Basic nije pronađen na vašem računalu.  Možete preuzeti besplatnu verziju Microsoft Visual Basic-a sa: </value>
+  </data>
+  <data name="BriefDescription" xml:space="preserve">
+    <value>Kratak opis (1024 maks)</value>
+  </data>
+  <data name="CategoryExample" xml:space="preserve">
+    <value>Primjer</value>
+  </data>
+  <data name="CategoryExercise" xml:space="preserve">
+    <value>Vježba</value>
+  </data>
+  <data name="CategoryFun" xml:space="preserve">
+    <value>Zabava</value>
+  </data>
+  <data name="CategoryGame" xml:space="preserve">
+    <value>Igra</value>
+  </data>
+  <data name="CategoryMath" xml:space="preserve">
+    <value>Matematika</value>
+  </data>
+  <data name="CategoryMiscellaneous" xml:space="preserve">
+    <value>Razno</value>
+  </data>
+  <data name="CategorySample" xml:space="preserve">
+    <value>Primjer</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>Primjer</value>
+  </data>
+  <data name="FailedToUpdateProgramInfo" xml:space="preserve">
+    <value>Neuspjela nadogradnja informacija programa</value>
+  </data>
+  <data name="ProgramCategory" xml:space="preserve">
+    <value>Kategorija</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>Naslov programa (255 maks)</value>
+  </data>
+  <data name="UpdateAndClose" xml:space="preserve">
+    <value>Nadogradi i zatvori</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalji</value>
+  </data>
+  <data name="ImportedProgram" xml:space="preserve">
+    <value>{0} - Uvezeno</value>
+    <comment>0: Imported program Id</comment>
+  </data>
+  <data name="AddMoreDetails" xml:space="preserve">
+    <value>Dodaj više detalja</value>
+  </data>
+  <data name="ClickHereToDownload" xml:space="preserve">
+    <value>Pritisnite ovdje za preuzimanje.</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Nova verzija Small Basic je dostupna.</value>
+  </data>
+</root>

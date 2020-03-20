@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnotherLabelExists" xml:space="preserve">
+    <value>같은 이름의 레이블 '{0}' 이 존재 합니다.</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="AnotherSubroutineExists" xml:space="preserve">
+    <value>같은 이름의 서브루틴  '{0}' 이 존재 합니다.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="ArgumentNumberMismatch" xml:space="preserve">
+    <value>연산 '{0}.{1}' 에 {2} 인수를 공급하셨으나  {3} 인수가 필요합니다.</value>
+    <comment>0: Type Name, 1: Method Name, 2: Actual Arguments, 3: Expected Arguments</comment>
+  </data>
+  <data name="ConditionExpected" xml:space="preserve">
+    <value>여기에 조건이 예상됩니다.</value>
+  </data>
+  <data name="ElseIfUnexpected" xml:space="preserve">
+    <value>ElseIf 구문은 If..Then 구문과 함께 사용할 때 유효합니다.  이 위치에서는 예상되지 않습니다.</value>
+  </data>
+  <data name="EndForExpected" xml:space="preserve">
+    <value>EndFor가 예상되나 바른 장소에서 발견되지 않습니다.</value>
+  </data>
+  <data name="EndIfExpected" xml:space="preserve">
+    <value>EndIf가 예상되나 바른 장소에서 발견되지 않습니다.</value>
+  </data>
+  <data name="EndSubExpected" xml:space="preserve">
+    <value>EndSub가 예상되나 바른 장소에서 발견되지 않습니다.</value>
+  </data>
+  <data name="EndWhileExpected" xml:space="preserve">
+    <value>EndWhile이 예상되나 바른 장소에서 발견되지 않습니다.</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>이벤트  '{1}' 중  '{0}' 이 발견되지 않습니다.</value>
+    <comment>0: Event Name, 1: Type Name</comment>
+  </data>
+  <data name="ExpressionExpected" xml:space="preserve">
+    <value>이 장소에 표현이 예상됩니다.</value>
+  </data>
+  <data name="ExpressionExpectedAfter" xml:space="preserve">
+    <value>{0} 다음장소에 표현이 예상됩니다.</value>
+  </data>
+  <data name="IdentifierExpected" xml:space="preserve">
+    <value>이장소에 변수나 개체가 예상됩니다.</value>
+  </data>
+  <data name="VariableNotInitialized" xml:space="preserve">
+    <value>변수 '{0}' 가 사용되었으나, 값이 설정되지 않았습니다.  철자가 정확한지 확인하십시오.</value>
+    <comment>0: Variable Name</comment>
+  </data>
+  <data name="LabelNotFound" xml:space="preserve">
+    <value>Goto 구문에 사용된 레이블  '{0}' 을(를) 찾을 수 없습니다.</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="LoadReferenceFailed" xml:space="preserve">
+    <value>참조 {0} 을(를) 로드할 수 없습니다.</value>
+  </data>
+  <data name="MethodNotFound" xml:space="preserve">
+    <value>연산 '{1}' 중 '{0}' 을 발견할수 없습니다.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>속성 '{1}' 중 '{0}"  은 읽기전용으로 값을 할당할수 없습니다.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsWriteOnly" xml:space="preserve">
+    <value>속성  '{1}' 중 '{0}"  은 쓰기전용으로 값을 기대할 수 없습니다.</value>
+  </data>
+  <data name="PropertyNotFound" xml:space="preserve">
+    <value>속성  '{1}' 중 '{0}" 을 찾을 수 없습니다.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="ReturnValueExpectedFromVoidMethod" xml:space="preserve">
+    <value>연산 '{0}.{1}'  은 반환값이 예상되나, 아무 값도  반환되지 않았습니다.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="SubroutineEventAssignment" xml:space="preserve">
+    <value>서브루틴 '{0}' 은 이벤트에만 할당될수 있습니다.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineNotDefined" xml:space="preserve">
+    <value>서브루틴 '{0}' 이 정의되지 않았습니다.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineUsedAsVariable" xml:space="preserve">
+    <value>'{0}' 은 서브루틴 이나 변수로 사용되고 있습니다.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="TokenExpected" xml:space="preserve">
+    <value>{0} 이 예상되나 발견되지 않았습니다.</value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>개체 '{0}' 을 찾을수 없습니다.</value>
+    <comment>0: Type Name</comment>
+  </data>
+  <data name="UnexpectedMethodCallEOL" xml:space="preserve">
+    <value>예기치 않은  명령줄 종료 분석 메소드 호출 이 발생 되었습니다.</value>
+  </data>
+  <data name="UnexpectedTokenAtLocation" xml:space="preserve">
+    <value>{0} 은 이 장소에서 예상되지 않습니다.</value>
+  </data>
+  <data name="UnexpectedTokenFound" xml:space="preserve">
+    <value>예상되지 않은 토큰 {0} 이 발견되었습니다.</value>
+  </data>
+  <data name="UnrecognizedStatement" xml:space="preserve">
+    <value>인식할 수 없는 구문이 발견되었습니다.</value>
+  </data>
+  <data name="DocumentModified" xml:space="preserve">
+    <value>종료중인 프로그램은 상태가 바뀐상태입니다. 변경사항을 저장하시려면 "예" ; 변경을 무시하려면 "아니오" ,   이 대화창을 닫으려면 "취소" 를 선택하십시요.</value>
+  </data>
+  <data name="FailedToImportFromWeb" xml:space="preserve">
+    <value>웹에서 프로그램가져오기를 실패하였습니다.</value>
+  </data>
+  <data name="FailedToPublishToWeb" xml:space="preserve">
+    <value>웹에  프로그램 출판하기를 실패하였습니다.</value>
+  </data>
+  <data name="ImportFromWeb" xml:space="preserve">
+    <value>웹에서 프로그램 가져오기.</value>
+  </data>
+  <data name="ImportFromWebFailedReason" xml:space="preserve">
+    <value>지정한 프로그램을 서버에서 찾을 수 없습니다. 링크를 확인 후 다시 시도하십시오.</value>
+  </data>
+  <data name="ImportLocationOfProgramOnWeb" xml:space="preserve">
+    <value>프로그램의 ID를 입력하십시오</value>
+  </data>
+  <data name="LocationOfProgramOnWeb" xml:space="preserve">
+    <value>다음은 동료들과 함께 공유할 수 있는 프로그램의 ID입니다.</value>
+  </data>
+  <data name="ProgramRunning" xml:space="preserve">
+    <value>프로그램 ({0}) 이 (가)  시작되어서 작동중입니다.</value>
+  </data>
+  <data name="PublishedToWeb" xml:space="preserve">
+    <value>프로그램이 웹에 출판되었습니다.</value>
+  </data>
+  <data name="PublishToWebFailedReason" xml:space="preserve">
+    <value>프로그램이 서버에 출판되지 않았습니다.  프로그램이 빈상태이든지 아니면 너무 큰 상태입니다. </value>
+  </data>
+  <data name="ReasonForFailure" xml:space="preserve">
+    <value>다음의 에러가 발생하였습니다.
+
+{0}</value>
+    <comment>0: Error details</comment>
+  </data>
+  <data name="SaveDocumentBeforeClosing" xml:space="preserve">
+    <value>종료 전에 현재의 서류를 저장하시겠습니까?</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>다음 이유로 프로그램을 저장할수 없습니다:</value>
+  </data>
+  <data name="SaveFailedReason" xml:space="preserve">
+    <value>{0}
+
+다른 파일로 저장하시겠습니까?</value>
+    <comment>{0} = Exception message</comment>
+  </data>
+  <data name="SmallBasicFileFilter" xml:space="preserve">
+    <value>Small Basic 파일형식 (*.smallbasic)</value>
+  </data>
+  <data name="EndProgramCommand" xml:space="preserve">
+    <value>프로그램 종료</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>파일 {0} 를 찾을수 없습니다.</value>
+    <comment>0: File Name</comment>
+  </data>
+  <data name="ImportProgramCommand" xml:space="preserve">
+    <value>가져오기</value>
+  </data>
+  <data name="OverlayCloseAtEnd" xml:space="preserve">
+    <value>이 오버레이는 프로그램이 끝나면 자동으로 닫힙니다.</value>
+  </data>
+  <data name="PublishProgramCommand" xml:space="preserve">
+    <value>출판</value>
+  </data>
+  <data name="FormatProgramCommand" xml:space="preserve">
+    <value>프로그램을 포맷합니다</value>
+  </data>
+  <data name="RunProgramCommand" xml:space="preserve">
+    <value>실행 (F5)</value>
+    <comment>F5 = Key</comment>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>새로 만들기</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="SaveCommand" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="SaveAsCommand" xml:space="preserve">
+    <value>다른 이름으로 저장</value>
+  </data>
+  <data name="CutCommand" xml:space="preserve">
+    <value>잘라내기</value>
+  </data>
+  <data name="CopyCommand" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="PasteCommand" xml:space="preserve">
+    <value>붙이기</value>
+  </data>
+  <data name="UndoCommand" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="RedoCommand" xml:space="preserve">
+    <value>다시</value>
+  </data>
+  <data name="FindCommand" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="FindNextCommand" xml:space="preserve">
+    <value>다음 검색</value>
+  </data>
+  <data name="TextToSearch" xml:space="preserve">
+    <value>검색할 텍스트</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>마이크로 소프트 Small Basic</value>
+    <comment>Do not localize</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>지정되지 않음</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="WaitForProgramExit" xml:space="preserve">
+    <value>프로그램이 완료될 때까지 기다리든지, "프로그램 종료" 버튼을 눌러서 프로그램을 종료 후 편집으로 되돌아갈 수 있습니다.</value>
+  </data>
+  <data name="FoundErrors" xml:space="preserve">
+    <value>에러가 발견되었습니다...</value>
+  </data>
+  <data name="ClipboardGroup" xml:space="preserve">
+    <value>클립보드</value>
+  </data>
+  <data name="FileGroup" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="ProgramGroup" xml:space="preserve">
+    <value>프로그램</value>
+  </data>
+  <data name="WebGroup" xml:space="preserve">
+    <value>웹</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>검사중...123</value>
+  </data>
+  <data name="FailedToCreateOutputFile" xml:space="preserve">
+    <value>출력 파일을 생성할수 없습니다.</value>
+  </data>
+  <data name="FailedToCreateOutputFileReason" xml:space="preserve">
+    <value>파일을 먼저 저장하고 다시 작동을 시도하십시오. 
+ 더 자세한 정보: {0}</value>
+  </data>
+  <data name="LocationOfProgramHRef" xml:space="preserve">
+    <value>http://smallbasic.com/program/?{0}</value>
+  </data>
+  <data name="LocationOfProgramListing" xml:space="preserve">
+    <value>프로그램을 이 장소에서 볼 수 있음:</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>이벤트</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>키워드</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>연산</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>개체</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>변수</value>
+  </data>
+  <data name="Subroutine" xml:space="preserve">
+    <value>서브루틴</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>레이블</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>_예</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>_아니오</value>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>_재시도</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Returns" xml:space="preserve">
+    <value>리턴</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="ExportToVisualBasicCommand" xml:space="preserve">
+    <value>졸업</value>
+  </data>
+  <data name="ButtonContinue" xml:space="preserve">
+    <value>_계속</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>변환중...</value>
+  </data>
+  <data name="ExportToVB" xml:space="preserve">
+    <value>Visual Basic로 송출</value>
+  </data>
+  <data name="ExportToVBDescription" xml:space="preserve">
+    <value>이 마법사는 Small Basic 프로그램을 마이크로 소프트 Visual Basic으로 변환합니다.</value>
+  </data>
+  <data name="FoundErrorsInProgram" xml:space="preserve">
+    <value>프로그렘에 에러가 발견되었습니다.  고친 후에 다시 시도하십시오.</value>
+  </data>
+  <data name="Graduate" xml:space="preserve">
+    <value>졸업</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>시작중...</value>
+  </data>
+  <data name="OutputLocation" xml:space="preserve">
+    <value>출력 장소: </value>
+  </data>
+  <data name="VBNotFound" xml:space="preserve">
+    <value>마이크로 소프트 Visual Basic이 컴퓨터에서 발견되지 않았습니다.  다음 장소에서 무료 배포용 마이크로 소프트 Visual Basic을 다운로드 할 수 있음:</value>
+  </data>
+  <data name="BriefDescription" xml:space="preserve">
+    <value>간단한 설명 (최장 1024 )</value>
+  </data>
+  <data name="CategoryExample" xml:space="preserve">
+    <value>예제</value>
+  </data>
+  <data name="CategoryExercise" xml:space="preserve">
+    <value>연습</value>
+  </data>
+  <data name="CategoryFun" xml:space="preserve">
+    <value>재미</value>
+  </data>
+  <data name="CategoryGame" xml:space="preserve">
+    <value>게임</value>
+  </data>
+  <data name="CategoryMath" xml:space="preserve">
+    <value>산수</value>
+  </data>
+  <data name="CategoryMiscellaneous" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="CategorySample" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="FailedToUpdateProgramInfo" xml:space="preserve">
+    <value>프로그램 내용 업데이트를 실패하였습니다</value>
+  </data>
+  <data name="ProgramCategory" xml:space="preserve">
+    <value>종류</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>프로그램 제목 (최장 255)</value>
+  </data>
+  <data name="UpdateAndClose" xml:space="preserve">
+    <value>업데이트 후 종료</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>상세</value>
+  </data>
+  <data name="ImportedProgram" xml:space="preserve">
+    <value>{0} - 가져옴</value>
+    <comment>0: Imported program Id</comment>
+  </data>
+  <data name="AddMoreDetails" xml:space="preserve">
+    <value>더 자세한 설명을 추가</value>
+  </data>
+  <data name="ClickHereToDownload" xml:space="preserve">
+    <value>다운로드하려면 여기를 클릭</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>새 버전의 Small Basic이 있습니다.</value>
+  </data>
+</root>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnotherLabelExists" xml:space="preserve">
+    <value>Existuje jiný popisek s názvem '{0}'.</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="AnotherSubroutineExists" xml:space="preserve">
+    <value>Podprogram s názvem '{0}' již existuje.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="ArgumentNumberMismatch" xml:space="preserve">
+    <value>Neodpovídá počet parametrů v '{0}.{1}': Očekáváno {3}. Zadáno: {2}.</value>
+    <comment>0: Type Name, 1: Method Name, 2: Actual Arguments, 3: Expected Arguments</comment>
+  </data>
+  <data name="ConditionExpected" xml:space="preserve">
+    <value>Očekávána podmínka.</value>
+  </data>
+  <data name="ElseIfUnexpected" xml:space="preserve">
+    <value>Příkaz ElseIf zde nelze použít.</value>
+  </data>
+  <data name="EndForExpected" xml:space="preserve">
+    <value>Byl očekáván příkaz EndFor, ale nebyl nalezen.</value>
+  </data>
+  <data name="EndIfExpected" xml:space="preserve">
+    <value>Byl očekáván příkaz EndIf, ale nebyl nalezen.</value>
+  </data>
+  <data name="EndSubExpected" xml:space="preserve">
+    <value>Byl očekáván příkaz EndSub, ale nebyl nalezen.</value>
+  </data>
+  <data name="EndWhileExpected" xml:space="preserve">
+    <value>Byl očekáván příkaz EndWhile, ale nebyl nalezen.</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>Nebyla nalezena událost '{0}' v '{1}'.</value>
+    <comment>0: Event Name, 1: Type Name</comment>
+  </data>
+  <data name="ExpressionExpected" xml:space="preserve">
+    <value>Zde byl očekáván výraz.</value>
+  </data>
+  <data name="ExpressionExpectedAfter" xml:space="preserve">
+    <value>Po {0} byl očekáván výraz.</value>
+  </data>
+  <data name="IdentifierExpected" xml:space="preserve">
+    <value>Byl očekáván název proměnné nebo podprogramu.</value>
+  </data>
+  <data name="VariableNotInitialized" xml:space="preserve">
+    <value>Použita proměnná '{0}', které ale nebyla nastavena žádná hodnota. Zkontrolujte, zda není překlep v názvu.</value>
+    <comment>0: Variable Name</comment>
+  </data>
+  <data name="LabelNotFound" xml:space="preserve">
+    <value>Návěští '{0}' nebylo nalezeno. Zkontrolujte překlepy v GOTO.</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="LoadReferenceFailed" xml:space="preserve">
+    <value>Nepodařilo se načíst referenci {0}.</value>
+  </data>
+  <data name="MethodNotFound" xml:space="preserve">
+    <value>Nenalezena metoda '{0}' v '{1}'.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>Vlastnost '{0}' v '{1}' je pouze pro čtení a není možné ji změnit.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsWriteOnly" xml:space="preserve">
+    <value>Vlastnost '{0}'  '{1}' slouží pouze k zápisu a není možné její hodnotu číst.</value>
+  </data>
+  <data name="PropertyNotFound" xml:space="preserve">
+    <value>Vlastnost '{0}' v '{1}' nebyla nalezena.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="ReturnValueExpectedFromVoidMethod" xml:space="preserve">
+    <value>Bylo očekáváno, že metoda  '{0}.{1}' vrátí hodnotu, ale nic nebylo vráceno.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="SubroutineEventAssignment" xml:space="preserve">
+    <value>Podprogram '{0}' může být přiřazen pouze události.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineNotDefined" xml:space="preserve">
+    <value>Podprogram '{0}' nebyl definován.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineUsedAsVariable" xml:space="preserve">
+    <value>'{0}' je název podprogramu, ale byl použit jako proměnná.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="TokenExpected" xml:space="preserve">
+    <value>Očekáváno: {0}.</value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>Typ '{0}' nebyl nalezen. Zkontrolujte překlepy.</value>
+    <comment>0: Type Name</comment>
+  </data>
+  <data name="UnexpectedMethodCallEOL" xml:space="preserve">
+    <value>Nalezen konec řádku během zpracování podprogramu. Zkontrolujte, zda někde nechybí nebo nepřebývají uvozovky.</value>
+  </data>
+  <data name="UnexpectedTokenAtLocation" xml:space="preserve">
+    <value> {0} zde nebylo očekáváno.</value>
+  </data>
+  <data name="UnexpectedTokenFound" xml:space="preserve">
+    <value>Nalezeno {0} na nečekaném místě.</value>
+  </data>
+  <data name="UnrecognizedStatement" xml:space="preserve">
+    <value>Nalezen nesrozumitelný příkaz.</value>
+  </data>
+  <data name="DocumentModified" xml:space="preserve">
+    <value>
+Soubor byl změněn, ale nebyl uložen. 
+Výběrem Ano se soubor uloží, výběrem Ne se neuloží a výběrem Storno se zavírání zruší a lze pokračovat v editaci.</value>
+  </data>
+  <data name="FailedToImportFromWeb" xml:space="preserve">
+    <value>Import programu z webu se nezdařil.</value>
+  </data>
+  <data name="FailedToPublishToWeb" xml:space="preserve">
+    <value>Nahrávání na web se nepovedlo. </value>
+  </data>
+  <data name="ImportFromWeb" xml:space="preserve">
+    <value>Importovat program z webu</value>
+  </data>
+  <data name="ImportFromWebFailedReason" xml:space="preserve">
+    <value>Odkazovaný dokument nebyl na webu nalezen.</value>
+  </data>
+  <data name="ImportLocationOfProgramOnWeb" xml:space="preserve">
+    <value>Zadejte identifikátor programu.</value>
+  </data>
+  <data name="LocationOfProgramOnWeb" xml:space="preserve">
+    <value>Identifikátor přidělený programu. Lze ho poskytnout ostatním.</value>
+  </data>
+  <data name="ProgramRunning" xml:space="preserve">
+    <value>Program "{0}" je spuštěn a pracuje. </value>
+  </data>
+  <data name="PublishedToWeb" xml:space="preserve">
+    <value>Program byl publikován na web.</value>
+  </data>
+  <data name="PublishToWebFailedReason" xml:space="preserve">
+    <value>Program nebyl publikován na web. Soubor je buď prázdný, nebo příliš velký.</value>
+  </data>
+  <data name="ReasonForFailure" xml:space="preserve">
+    <value>Byla zaznamenána následující chyba:
+{0}</value>
+    <comment>0: Error details</comment>
+  </data>
+  <data name="SaveDocumentBeforeClosing" xml:space="preserve">
+    <value>Chcete uložit soubor před zavřením?</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>Soubor nemohl být uložen z následujícího důvodu:</value>
+  </data>
+  <data name="SaveFailedReason" xml:space="preserve">
+    <value>{0}
+
+Chcete uložit soubor jinam?</value>
+    <comment>{0} = Exception message</comment>
+  </data>
+  <data name="SmallBasicFileFilter" xml:space="preserve">
+    <value>Soubory Small Basic (*.smallbasic)</value>
+  </data>
+  <data name="EndProgramCommand" xml:space="preserve">
+    <value>Ukončit program</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Nebyl nalezen soubor {0}.</value>
+    <comment>0: File Name</comment>
+  </data>
+  <data name="ImportProgramCommand" xml:space="preserve">
+    <value>Importovat</value>
+  </data>
+  <data name="OverlayCloseAtEnd" xml:space="preserve">
+    <value>Tento překryv se automaticky zavře po ukončení programu.</value>
+  </data>
+  <data name="PublishProgramCommand" xml:space="preserve">
+    <value>Nahrát na web</value>
+  </data>
+  <data name="FormatProgramCommand" xml:space="preserve">
+    <value>Naformátovat zdrojový kód</value>
+  </data>
+  <data name="RunProgramCommand" xml:space="preserve">
+    <value>Spustit (F5)</value>
+    <comment>F5 = Key</comment>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>Nový</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>Otevřít</value>
+  </data>
+  <data name="SaveCommand" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="SaveAsCommand" xml:space="preserve">
+    <value>Uložit jako</value>
+  </data>
+  <data name="CutCommand" xml:space="preserve">
+    <value>Vyjmout</value>
+  </data>
+  <data name="CopyCommand" xml:space="preserve">
+    <value>Kopírovat</value>
+  </data>
+  <data name="PasteCommand" xml:space="preserve">
+    <value>Vložit</value>
+  </data>
+  <data name="UndoCommand" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="RedoCommand" xml:space="preserve">
+    <value>Znovu</value>
+  </data>
+  <data name="FindCommand" xml:space="preserve">
+    <value>Najít</value>
+  </data>
+  <data name="FindNextCommand" xml:space="preserve">
+    <value>Najít další</value>
+  </data>
+  <data name="TextToSearch" xml:space="preserve">
+    <value>Co hledat</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Beze jména</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="WaitForProgramExit" xml:space="preserve">
+    <value>Můžete počkat na konec programu nebo jej hned ukončit tlačítkem Ukončit program.</value>
+  </data>
+  <data name="FoundErrors" xml:space="preserve">
+    <value>Byly nalezeny nějaké chyby...</value>
+  </data>
+  <data name="ClipboardGroup" xml:space="preserve">
+    <value>Schránka</value>
+  </data>
+  <data name="FileGroup" xml:space="preserve">
+    <value>Soubor</value>
+  </data>
+  <data name="WebGroup" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testování...123</value>
+  </data>
+  <data name="FailedToCreateOutputFile" xml:space="preserve">
+    <value>Nepodařilo se vytvořit výstupní soubor.</value>
+  </data>
+  <data name="FailedToCreateOutputFileReason" xml:space="preserve">
+    <value>Uložte prosím nejprve soubor a poté proveďte spuštění znovu. 
+Více informací: {0}</value>
+  </data>
+  <data name="LocationOfProgramListing" xml:space="preserve">
+    <value>Svůj program můžete zhlédnout na:</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Událost</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>Klíčové slovo</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operace</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Vlastnost</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>Objekt</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>Proměnná</value>
+  </data>
+  <data name="Subroutine" xml:space="preserve">
+    <value>Podprogram</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Popisek</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Jiné</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>Znovu</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Storno</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="Returns" xml:space="preserve">
+    <value>Vrací</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>Nic</value>
+  </data>
+  <data name="ExportToVisualBasicCommand" xml:space="preserve">
+    <value>Export do jazyka Visual Basic</value>
+  </data>
+  <data name="ButtonContinue" xml:space="preserve">
+    <value>Pokračovat</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>Konvertování...</value>
+  </data>
+  <data name="ExportToVB" xml:space="preserve">
+    <value>Export do jazyka Visual Basic</value>
+  </data>
+  <data name="ExportToVBDescription" xml:space="preserve">
+    <value>Převede program z jazyka Small Basic do jazyka Visual Basic.</value>
+  </data>
+  <data name="FoundErrorsInProgram" xml:space="preserve">
+    <value>V programu byly nalezeny chyby. Je třeba je najít a opravit.</value>
+  </data>
+  <data name="Graduate" xml:space="preserve">
+    <value>Přechod na vyšší jazyk</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>Spouštění...</value>
+  </data>
+  <data name="OutputLocation" xml:space="preserve">
+    <value>Umístění: </value>
+  </data>
+  <data name="VBNotFound" xml:space="preserve">
+    <value>Microsoft Visual Basic nebyl nalezen. Je možné ho zdarma stáhnout z: </value>
+  </data>
+  <data name="BriefDescription" xml:space="preserve">
+    <value>Krátký popis (maximálně 1024 znaků)</value>
+  </data>
+  <data name="CategoryExample" xml:space="preserve">
+    <value>Příklad</value>
+  </data>
+  <data name="CategoryExercise" xml:space="preserve">
+    <value>Cvičení</value>
+  </data>
+  <data name="CategoryFun" xml:space="preserve">
+    <value>Zábava</value>
+  </data>
+  <data name="CategoryGame" xml:space="preserve">
+    <value>Hra</value>
+  </data>
+  <data name="CategoryMath" xml:space="preserve">
+    <value>Matematika</value>
+  </data>
+  <data name="CategoryMiscellaneous" xml:space="preserve">
+    <value>Různé</value>
+  </data>
+  <data name="CategorySample" xml:space="preserve">
+    <value>Ukázka</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>Příklad</value>
+  </data>
+  <data name="FailedToUpdateProgramInfo" xml:space="preserve">
+    <value>Nezdařila se aktualizace informací o programu.</value>
+  </data>
+  <data name="ProgramCategory" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>Titulek programu (maximálně 255 znaků)</value>
+  </data>
+  <data name="UpdateAndClose" xml:space="preserve">
+    <value>Aktualizovat a zavřít</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Podrobnosti</value>
+  </data>
+  <data name="ImportedProgram" xml:space="preserve">
+    <value>{0} - Importováno</value>
+    <comment>0: Imported program Id</comment>
+  </data>
+  <data name="AddMoreDetails" xml:space="preserve">
+    <value>Zobrazit více podrobností</value>
+  </data>
+  <data name="ClickHereToDownload" xml:space="preserve">
+    <value>Klikněte zde pro stažení.</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Je dostupná nová verze Small Basicu.</value>
+  </data>
+</root>

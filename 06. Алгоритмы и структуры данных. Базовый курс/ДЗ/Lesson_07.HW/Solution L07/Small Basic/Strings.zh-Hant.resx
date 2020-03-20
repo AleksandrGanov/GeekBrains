@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnotherLabelExists" xml:space="preserve">
+    <value>存在另一個同名標籤 '{0}'</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="AnotherSubroutineExists" xml:space="preserve">
+    <value>存在另一個 同名 Subroutine '{0}'</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="ArgumentNumberMismatch" xml:space="preserve">
+    <value>操作 '{0}.{1}' 應輸入 {2} 個參數，但現有 {3} 個參數。</value>
+    <comment>0: Type Name, 1: Method Name, 2: Actual Arguments, 3: Expected Arguments</comment>
+  </data>
+  <data name="ConditionExpected" xml:space="preserve">
+    <value>此處預期一個條件狀況。</value>
+  </data>
+  <data name="ElseIfUnexpected" xml:space="preserve">
+    <value>ElseIf 語句僅當與一個 If..Then 語句組合使用時在有效。此處它是非預期的。</value>
+  </data>
+  <data name="EndForExpected" xml:space="preserve">
+    <value>預期為 EndFor 但是無法在相應的位置找到。</value>
+  </data>
+  <data name="EndIfExpected" xml:space="preserve">
+    <value>預期為 EndIf 但是無法在相應的位置找到。</value>
+  </data>
+  <data name="EndSubExpected" xml:space="preserve">
+    <value>預期為 EndSub 但是無法在相應的位置找到。</value>
+  </data>
+  <data name="EndWhileExpected" xml:space="preserve">
+    <value>預期為 EndWhile 但是無法在相應的位置找到。</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>無法在 '{1}' 中找到事件 '{0}'。</value>
+    <comment>0: Event Name, 1: Type Name</comment>
+  </data>
+  <data name="ExpressionExpected" xml:space="preserve">
+    <value>這裡預期一個運算式。</value>
+  </data>
+  <data name="ExpressionExpectedAfter" xml:space="preserve">
+    <value>在 {0} 之後預期一個運算式。</value>
+  </data>
+  <data name="IdentifierExpected" xml:space="preserve">
+    <value>此處預期一個變數或物件。</value>
+  </data>
+  <data name="VariableNotInitialized" xml:space="preserve">
+    <value>變數 '{0}' 已經被使用，但未被賦值。您確定您正確拼寫了變數名嗎？</value>
+    <comment>0: Variable Name</comment>
+  </data>
+  <data name="LabelNotFound" xml:space="preserve">
+    <value>無法找到在 Goto 語句中使用的標籤 '{0}'</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="LoadReferenceFailed" xml:space="preserve">
+    <value>無法載入參數 {0}。</value>
+  </data>
+  <data name="MethodNotFound" xml:space="preserve">
+    <value>無法在 '{1}' 中找到操作 '{0}'。</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>'{1}' 中找到屬性 '{0}' 是唯讀的並且不能被指派一個值。</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsWriteOnly" xml:space="preserve">
+    <value>'{1}' 中找到屬性 '{0}' 是唯讀的並且不能預期（取得）一個值。</value>
+  </data>
+  <data name="PropertyNotFound" xml:space="preserve">
+    <value>無法在 '{1}' 中找到屬性 '{0}'。</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="ReturnValueExpectedFromVoidMethod" xml:space="preserve">
+    <value>動作 '{0}.{1}' 預期有一個返回值，但是它未產生任何值。</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="SubroutineEventAssignment" xml:space="preserve">
+    <value>子常式 '{0}' 僅可以被指派給一個事件。</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineNotDefined" xml:space="preserve">
+    <value>子常式 '{0}' 未被定義。</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineUsedAsVariable" xml:space="preserve">
+    <value>'{0}' 是一個子常式，但被用作一個變數。</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="TokenExpected" xml:space="preserve">
+    <value>此處預期 {0}，但無法找到。</value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>無法找到物件 '{0}'。</value>
+    <comment>0: Type Name</comment>
+  </data>
+  <data name="UnexpectedMethodCallEOL" xml:space="preserve">
+    <value>解析方法調用時遇到非預期的行尾。</value>
+  </data>
+  <data name="UnexpectedTokenAtLocation" xml:space="preserve">
+    <value>{0} 在此處是非預期的。</value>
+  </data>
+  <data name="UnexpectedTokenFound" xml:space="preserve">
+    <value>發現非預期的符記{0}。</value>
+  </data>
+  <data name="UnrecognizedStatement" xml:space="preserve">
+    <value>遇到無法識別的語句。</value>
+  </data>
+  <data name="DocumentModified" xml:space="preserve">
+    <value>
+
+您正在關閉的程式已經被修改。
+如果您希望保存修改，請選擇“是”；放棄修改，請選擇“否”；關閉此對話方塊，請選擇“取消”。 </value>
+  </data>
+  <data name="FailedToImportFromWeb" xml:space="preserve">
+    <value>網路導入程式失敗。</value>
+  </data>
+  <data name="FailedToPublishToWeb" xml:space="preserve">
+    <value>網路發佈程式失敗。</value>
+  </data>
+  <data name="ImportFromWeb" xml:space="preserve">
+    <value>從網路導入一個程式。</value>
+  </data>
+  <data name="ImportFromWebFailedReason" xml:space="preserve">
+    <value>伺服器上未找到特定檔。請檢查 ID 並重試。</value>
+  </data>
+  <data name="ImportLocationOfProgramOnWeb" xml:space="preserve">
+    <value>請輸入程式 ID。</value>
+  </data>
+  <data name="LocationOfProgramOnWeb" xml:space="preserve">
+    <value>下麵是您程式的 ID ，您可以和朋友共用這個程式。</value>
+  </data>
+  <data name="ProgramRunning" xml:space="preserve">
+    <value>您的程式 ({0}) 已經啟動並正在運行。</value>
+  </data>
+  <data name="PublishedToWeb" xml:space="preserve">
+    <value>您的程式已發佈到網路上。</value>
+  </data>
+  <data name="PublishToWebFailedReason" xml:space="preserve">
+    <value>您的程式無法發佈到伺服器。它可能為空的內容或者太大。</value>
+  </data>
+  <data name="ReasonForFailure" xml:space="preserve">
+    <value>我們遇到了如下錯誤。
+
+{0}</value>
+    <comment>0: Error details</comment>
+  </data>
+  <data name="SaveDocumentBeforeClosing" xml:space="preserve">
+    <value>您希望在關閉該文檔前先保存它嗎？</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>您的程式無法保存，原因如下：</value>
+  </data>
+  <data name="SaveFailedReason" xml:space="preserve">
+    <value>{0}
+
+您希望將其存為另一個檔？</value>
+    <comment>{0} = Exception message</comment>
+  </data>
+  <data name="SmallBasicFileFilter" xml:space="preserve">
+    <value>Small Basic 檔 (*.smallbasic)</value>
+  </data>
+  <data name="EndProgramCommand" xml:space="preserve">
+    <value>結束程式</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>檔案 {0} 無法被找到。</value>
+    <comment>0: File Name</comment>
+  </data>
+  <data name="ImportProgramCommand" xml:space="preserve">
+    <value>導入</value>
+  </data>
+  <data name="OverlayCloseAtEnd" xml:space="preserve">
+    <value>此覆蓋將在程式結束時自動關閉。</value>
+  </data>
+  <data name="PublishProgramCommand" xml:space="preserve">
+    <value>發佈</value>
+  </data>
+  <data name="FormatProgramCommand" xml:space="preserve">
+    <value>格式化程式</value>
+  </data>
+  <data name="RunProgramCommand" xml:space="preserve">
+    <value>運行 (F5)</value>
+    <comment>F5 = Key</comment>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>打開</value>
+  </data>
+  <data name="SaveCommand" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SaveAsCommand" xml:space="preserve">
+    <value>另存為</value>
+  </data>
+  <data name="CutCommand" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="CopyCommand" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="PasteCommand" xml:space="preserve">
+    <value>粘貼</value>
+  </data>
+  <data name="UndoCommand" xml:space="preserve">
+    <value>撤銷</value>
+  </data>
+  <data name="RedoCommand" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="FindCommand" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="FindNextCommand" xml:space="preserve">
+    <value>查找下一個</value>
+  </data>
+  <data name="TextToSearch" xml:space="preserve">
+    <value>搜索文本</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Microsoft Small Basic</value>
+    <comment>Do not localize</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>無標題</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="WaitForProgramExit" xml:space="preserve">
+    <value>您可以等待程式結束，也可以點擊“結束程式”按鈕來關閉該程式並返回編輯。</value>
+  </data>
+  <data name="FoundErrors" xml:space="preserve">
+    <value>抱歉，我們發現了錯誤...</value>
+  </data>
+  <data name="ClipboardGroup" xml:space="preserve">
+    <value>剪貼板</value>
+  </data>
+  <data name="FileGroup" xml:space="preserve">
+    <value>檔</value>
+  </data>
+  <data name="ProgramGroup" xml:space="preserve">
+    <value>程式</value>
+  </data>
+  <data name="WebGroup" xml:space="preserve">
+    <value>網路</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>測試...123</value>
+  </data>
+  <data name="FailedToCreateOutputFile" xml:space="preserve">
+    <value>無法創建輸出檔</value>
+  </data>
+  <data name="FailedToCreateOutputFileReason" xml:space="preserve">
+    <value>請先保存檔並嘗試再次運行。
+
+更多資訊：{0}</value>
+  </data>
+  <data name="LocationOfProgramHRef" xml:space="preserve">
+    <value>http://smallbasic.com/program/?{0}</value>
+  </data>
+  <data name="LocationOfProgramListing" xml:space="preserve">
+    <value>您可以在這裡查看您的程式： </value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>關鍵字</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>屬性</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>物件</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>變數</value>
+  </data>
+  <data name="Subroutine" xml:space="preserve">
+    <value>子常式</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>標籤</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>是(Y)</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>否(N)</value>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>重試(R)</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="Returns" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="ExportToVisualBasicCommand" xml:space="preserve">
+    <value>畢業</value>
+  </data>
+  <data name="ButtonContinue" xml:space="preserve">
+    <value>繼續(o)</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>轉換...</value>
+  </data>
+  <data name="ExportToVB" xml:space="preserve">
+    <value>匯出至 Visual Basic</value>
+  </data>
+  <data name="ExportToVBDescription" xml:space="preserve">
+    <value>該嚮導將把您的 Small Basic 程式轉換為 Microsoft Visual Basic。</value>
+  </data>
+  <data name="FoundErrorsInProgram" xml:space="preserve">
+    <value>程式存在錯誤。請修復錯誤並再次嘗試。</value>
+  </data>
+  <data name="Graduate" xml:space="preserve">
+    <value>畢業</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>正在啟動...</value>
+  </data>
+  <data name="OutputLocation" xml:space="preserve">
+    <value>輸出位置：</value>
+  </data>
+  <data name="VBNotFound" xml:space="preserve">
+    <value>您的機器上沒有找到 Microsoft Visual Basic。您可以從這裡下載免費的 Microsoft Visual Basic 版本：</value>
+  </data>
+  <data name="BriefDescription" xml:space="preserve">
+    <value>簡要描述（最多1024 字元）</value>
+  </data>
+  <data name="CategoryExample" xml:space="preserve">
+    <value>示例</value>
+  </data>
+  <data name="CategoryExercise" xml:space="preserve">
+    <value>練習</value>
+  </data>
+  <data name="CategoryFun" xml:space="preserve">
+    <value>趣味</value>
+  </data>
+  <data name="CategoryGame" xml:space="preserve">
+    <value>遊戲</value>
+  </data>
+  <data name="CategoryMath" xml:space="preserve">
+    <value>數學</value>
+  </data>
+  <data name="CategoryMiscellaneous" xml:space="preserve">
+    <value>雜項</value>
+  </data>
+  <data name="CategorySample" xml:space="preserve">
+    <value>例子</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>示範</value>
+  </data>
+  <data name="FailedToUpdateProgramInfo" xml:space="preserve">
+    <value>無法更新程式資訊</value>
+  </data>
+  <data name="ProgramCategory" xml:space="preserve">
+    <value>種類</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>程式標題（最多 255 字元）</value>
+  </data>
+  <data name="UpdateAndClose" xml:space="preserve">
+    <value>更新並關閉</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="ImportedProgram" xml:space="preserve">
+    <value>{0} - 已導入</value>
+    <comment>0: Imported program Id</comment>
+  </data>
+  <data name="AddMoreDetails" xml:space="preserve">
+    <value>添加更多的細節</value>
+  </data>
+  <data name="ClickHereToDownload" xml:space="preserve">
+    <value>點擊這裏下載。</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>有新版的 Small Basic 可以使用。</value>
+  </data>
+</root>

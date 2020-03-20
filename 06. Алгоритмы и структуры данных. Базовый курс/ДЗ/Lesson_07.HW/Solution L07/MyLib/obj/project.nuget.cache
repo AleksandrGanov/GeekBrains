@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "U19+eyxwbhnJOqWsQJRZWVRWdFDddBIzmqJYidMjDExkdWIKG8AjxhDcO96iG4/WfNthe6lGbLqRktTAFV3/GA==",
+  "success": true,
+  "projectFilePath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\06. Алгоритмы и структуры данных. Базовый курс\\ДЗ\\Lesson_07.HW\\Solution L07\\MyLib\\MyLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

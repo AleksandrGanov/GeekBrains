@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnotherLabelExists" xml:space="preserve">
+    <value>Er bestaat een ander label met dezelfde naam '{0}'</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="AnotherSubroutineExists" xml:space="preserve">
+    <value>Er bestaat een andere Subroutine met dezelfde naam '{0}'</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="ArgumentNumberMismatch" xml:space="preserve">
+    <value>Operation '{0}.{1}' is voorzien van {2} argumenten, maar vraagt om {3} argumenten.</value>
+    <comment>0: Type Name, 1: Method Name, 2: Actual Arguments, 3: Expected Arguments</comment>
+  </data>
+  <data name="ConditionExpected" xml:space="preserve">
+    <value>Hier word een voorwaarde verwacht.</value>
+  </data>
+  <data name="ElseIfUnexpected" xml:space="preserve">
+    <value>Een ElseIf statement is alleen geldig in combinatie met een If..Then statement.  Het is niet geldig op deze plaats.</value>
+  </data>
+  <data name="EndForExpected" xml:space="preserve">
+    <value>Een EndFor statement is niet aangetroffen op de verwachte plaats.</value>
+  </data>
+  <data name="EndIfExpected" xml:space="preserve">
+    <value>Een EndIf statement is niet aangetroffen op de verwachte plaats.</value>
+  </data>
+  <data name="EndSubExpected" xml:space="preserve">
+    <value>Een EndSub statement is niet aangetroffen op de verwachte plaats.</value>
+  </data>
+  <data name="EndWhileExpected" xml:space="preserve">
+    <value>Een EndWhile statement is niet aangetroffen op de verwachte plaats.</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>Kan event '{0}' in '{1}' niet vinden.</value>
+    <comment>0: Event Name, 1: Type Name</comment>
+  </data>
+  <data name="ExpressionExpected" xml:space="preserve">
+    <value>Hier word een expressie verwacht.</value>
+  </data>
+  <data name="ExpressionExpectedAfter" xml:space="preserve">
+    <value>Achter {0} word een expressie verwacht.</value>
+  </data>
+  <data name="IdentifierExpected" xml:space="preserve">
+    <value>Op deze plaats word een variabele of object verwacht.</value>
+  </data>
+  <data name="VariableNotInitialized" xml:space="preserve">
+    <value>De variabele '{0}' is gebruikt, maar de waarde ervan is niet bepaald. Heeft u de juiste spelling gebruikt?</value>
+    <comment>0: Variable Name</comment>
+  </data>
+  <data name="LabelNotFound" xml:space="preserve">
+    <value>Kan label '{0}' niet vinden wat gebruikt word in Goto statement</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="LoadReferenceFailed" xml:space="preserve">
+    <value>Kan verwijzing {0} niet laden.</value>
+  </data>
+  <data name="MethodNotFound" xml:space="preserve">
+    <value>Kan operatie '{0}' in '{1}' niet vinden.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>De eigenschap '{0}' in '{1}' is alleen lezen en er kan geen waarde aan worden toegekend.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsWriteOnly" xml:space="preserve">
+    <value>De eigenschap '{0}' in '{1}' is alleen schrijven en er geen waarde worden toegekend.</value>
+  </data>
+  <data name="PropertyNotFound" xml:space="preserve">
+    <value>Kan eigenschap '{0}' in '{1}' niet vinden.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="ReturnValueExpectedFromVoidMethod" xml:space="preserve">
+    <value>De uitvoer '{0}.{1}' verwacht een waarde, er is geen uitvoerwaarde beschikbaar.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="SubroutineEventAssignment" xml:space="preserve">
+    <value>Subroutine '{0}' kan alleen aan een gebeurtenis worden toegewezen.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineNotDefined" xml:space="preserve">
+    <value>Subroutine '{0}' is niet gedefinieerd.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineUsedAsVariable" xml:space="preserve">
+    <value>'{0}' is een Subroutine, maar wordt gebruikt als variabele.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="TokenExpected" xml:space="preserve">
+    <value>Hier werd {0} verwacht, deze is niet aangetroffen.</value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>Kan object '{0}'niet vinden.</value>
+    <comment>0: Type Name</comment>
+  </data>
+  <data name="UnexpectedMethodCallEOL" xml:space="preserve">
+    <value>Onverwacht regeleinde bij het uitvoeren van een methodeaanroep.</value>
+  </data>
+  <data name="UnexpectedTokenAtLocation" xml:space="preserve">
+    <value>{0} is niet juist op deze plaats.</value>
+  </data>
+  <data name="UnexpectedTokenFound" xml:space="preserve">
+    <value>Onverwacht token {0} gevonden.</value>
+  </data>
+  <data name="UnrecognizedStatement" xml:space="preserve">
+    <value>Onherkendbaar statement opgetreden.</value>
+  </data>
+  <data name="DocumentModified" xml:space="preserve">
+    <value>Het programma wat door us wordt afgesloten is gewijzigd. Kies Ja als u de wijzigingen wilt opslaan; Nee om de wijzigingen niet door te voeren en kies Annluleer om dialoogscherm te sluiten.</value>
+  </data>
+  <data name="FailedToImportFromWeb" xml:space="preserve">
+    <value>Het is niet gelukt om het programma te importeren van Internet.</value>
+  </data>
+  <data name="FailedToPublishToWeb" xml:space="preserve">
+    <value>Het is niet gelukt om het programma te publiceren op Internet.</value>
+  </data>
+  <data name="ImportFromWeb" xml:space="preserve">
+    <value>Importeer een programma van Internet.</value>
+  </data>
+  <data name="ImportFromWebFailedReason" xml:space="preserve">
+    <value>Het aangegegeven bestand is niet aangetroffen op de server. controleer het ID en probeer opnieuw.</value>
+  </data>
+  <data name="ImportLocationOfProgramOnWeb" xml:space="preserve">
+    <value>Voer het programma-id in.</value>
+  </data>
+  <data name="LocationOfProgramOnWeb" xml:space="preserve">
+    <value>Hieronder staat het programma-id dat u kunt delen met anderen.</value>
+  </data>
+  <data name="ProgramRunning" xml:space="preserve">
+    <value>Uw programma ({0}) is gestart en wordt uitgevoerd. </value>
+  </data>
+  <data name="PublishedToWeb" xml:space="preserve">
+    <value>Uw programma is gepubliceerd op Internet.</value>
+  </data>
+  <data name="PublishToWebFailedReason" xml:space="preserve">
+    <value>Uw programma is niet op de server gepubliceerd.  Het was leeg of te groot.</value>
+  </data>
+  <data name="ReasonForFailure" xml:space="preserve">
+    <value>De volgende fouten zijn opgetreden.{0}</value>
+    <comment>0: Error details</comment>
+  </data>
+  <data name="SaveDocumentBeforeClosing" xml:space="preserve">
+    <value>Wilt u dit document opslaan alvorens het te sluiten?</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>Uw programma kon niet worden opgeslagen om de volgende reden:</value>
+  </data>
+  <data name="SaveFailedReason" xml:space="preserve">
+    <value>{0} Wilt u het opslaan onder een andere naam?</value>
+    <comment>{0} = Exception message</comment>
+  </data>
+  <data name="SmallBasicFileFilter" xml:space="preserve">
+    <value>Small Basic bestanden (*.smallbasic)</value>
+  </data>
+  <data name="EndProgramCommand" xml:space="preserve">
+    <value>Einde van het programma</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Bestand {0} kan niet worden gevonden.</value>
+    <comment>0: File Name</comment>
+  </data>
+  <data name="ImportProgramCommand" xml:space="preserve">
+    <value>Importeren</value>
+  </data>
+  <data name="OverlayCloseAtEnd" xml:space="preserve">
+    <value>Dit bericht sluit automatisch nadat uw programma is beëindigd.</value>
+  </data>
+  <data name="PublishProgramCommand" xml:space="preserve">
+    <value>Publiceren</value>
+  </data>
+  <data name="FormatProgramCommand" xml:space="preserve">
+    <value>Formateer programma</value>
+  </data>
+  <data name="RunProgramCommand" xml:space="preserve">
+    <value>Uitvoeren (F5)</value>
+    <comment>F5 = Key</comment>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>Openen</value>
+  </data>
+  <data name="SaveCommand" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="SaveAsCommand" xml:space="preserve">
+    <value>Opslaan als</value>
+  </data>
+  <data name="CutCommand" xml:space="preserve">
+    <value>Knippen</value>
+  </data>
+  <data name="CopyCommand" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="PasteCommand" xml:space="preserve">
+    <value>Plakken</value>
+  </data>
+  <data name="UndoCommand" xml:space="preserve">
+    <value>Ongedaan maken</value>
+  </data>
+  <data name="RedoCommand" xml:space="preserve">
+    <value>Opnieuw</value>
+  </data>
+  <data name="FindCommand" xml:space="preserve">
+    <value>Vind</value>
+  </data>
+  <data name="FindNextCommand" xml:space="preserve">
+    <value>Vind volgende</value>
+  </data>
+  <data name="TextToSearch" xml:space="preserve">
+    <value>Tekst doorzoeken</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Microsoft Small Basic</value>
+    <comment>Do not localize</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Naamloos</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="WaitForProgramExit" xml:space="preserve">
+    <value>U kunt wachten tot het programma stopt, of u kunt 'End Program' knop gebruiken om uw programma te sluiten en terug te keren naar bewerken.</value>
+  </data>
+  <data name="FoundErrors" xml:space="preserve">
+    <value>Er zijn helaas één of meer fouten gevonden...</value>
+  </data>
+  <data name="ClipboardGroup" xml:space="preserve">
+    <value>Klembord</value>
+  </data>
+  <data name="FileGroup" xml:space="preserve">
+    <value>Bestand</value>
+  </data>
+  <data name="ProgramGroup" xml:space="preserve">
+    <value>Programma</value>
+  </data>
+  <data name="WebGroup" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Testen</value>
+  </data>
+  <data name="FailedToCreateOutputFile" xml:space="preserve">
+    <value>Het is niet gelukt om een uitvoerbestand te maken.</value>
+  </data>
+  <data name="FailedToCreateOutputFileReason" xml:space="preserve">
+    <value>sla eerst het bestand op en probeer daarna opnieuw uit te voeren.Meer informatie: {0}</value>
+  </data>
+  <data name="LocationOfProgramHRef" xml:space="preserve">
+    <value>http://smallbasic.com/program/?{0}</value>
+  </data>
+  <data name="LocationOfProgramListing" xml:space="preserve">
+    <value>U kunt uw programma zien op: </value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Gebeurtenis</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>Sleutelwoord</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Bewerking</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Eigenschap</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>Variabele</value>
+  </data>
+  <data name="Subroutine" xml:space="preserve">
+    <value>Subroutine</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>_Ja</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>_Nee</value>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>_Opnieuw</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="Returns" xml:space="preserve">
+    <value>Geeft als resultaat</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>Niets</value>
+  </data>
+  <data name="ExportToVisualBasicCommand" xml:space="preserve">
+    <value>Converteren</value>
+  </data>
+  <data name="ButtonContinue" xml:space="preserve">
+    <value>V_erder</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>Converteren vindt plaats...</value>
+  </data>
+  <data name="ExportToVB" xml:space="preserve">
+    <value>Naar Visual Basic exporteren</value>
+  </data>
+  <data name="ExportToVBDescription" xml:space="preserve">
+    <value>Deze wizard converteert uw Small Basic-Programma naar Microsoft Visual Basic.</value>
+  </data>
+  <data name="FoundErrorsInProgram" xml:space="preserve">
+    <value>Er zijn fouten gevonden in het programma. Gelieve deze te corrigeren , alvorens de bewerking opnieuw uit te voeren.</value>
+  </data>
+  <data name="Graduate" xml:space="preserve">
+    <value>Converteren</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>Er wordt gestart...</value>
+  </data>
+  <data name="OutputLocation" xml:space="preserve">
+    <value>Map: </value>
+  </data>
+  <data name="VBNotFound" xml:space="preserve">
+    <value>Microsoft Visual Basic is niet aangetroffen op uw computer . Een kostenloze versie is via het web beschikbaar: </value>
+  </data>
+  <data name="BriefDescription" xml:space="preserve">
+    <value>Korte beschrijving (maximaal 1024)</value>
+  </data>
+  <data name="CategoryExample" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="CategoryExercise" xml:space="preserve">
+    <value>Oefening</value>
+  </data>
+  <data name="CategoryFun" xml:space="preserve">
+    <value>Plezier</value>
+  </data>
+  <data name="CategoryGame" xml:space="preserve">
+    <value>Spel</value>
+  </data>
+  <data name="CategoryMath" xml:space="preserve">
+    <value>Wiskunde</value>
+  </data>
+  <data name="CategoryMiscellaneous" xml:space="preserve">
+    <value>Verschillend</value>
+  </data>
+  <data name="CategorySample" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>Voorbeeld</value>
+  </data>
+  <data name="FailedToUpdateProgramInfo" xml:space="preserve">
+    <value>Programma informatie kon niet worden geactualiseerd</value>
+  </data>
+  <data name="ProgramCategory" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>Programmatitel (maximaal 255)</value>
+  </data>
+  <data name="UpdateAndClose" xml:space="preserve">
+    <value>Actualiseren en sluiten</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="ImportedProgram" xml:space="preserve">
+    <value>{0} - Geimporteerd</value>
+    <comment>0: Imported program Id</comment>
+  </data>
+  <data name="AddMoreDetails" xml:space="preserve">
+    <value>Verdere details toevoegen</value>
+  </data>
+  <data name="ClickHereToDownload" xml:space="preserve">
+    <value>Klik hier om te downloaden.</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>Een nieuwere versie van Small Basic is beschikbaar.</value>
+  </data>
+</root>

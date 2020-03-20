@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnotherLabelExists" xml:space="preserve">
+    <value>תווית עם שם זה כבר קיימת '{0}'</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="AnotherSubroutineExists" xml:space="preserve">
+    <value>שגרה אחרת עם שם זה כבר קיימת '{0}'</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="ArgumentNumberMismatch" xml:space="preserve">
+    <value>הפעולה '{0}.{1}' הופעלה עם {2} ארגומנט(ים), אך יש להעביר {3}</value>
+    <comment>0: Type Name, 1: Method Name, 2: Actual Arguments, 3: Expected Arguments</comment>
+  </data>
+  <data name="ConditionExpected" xml:space="preserve">
+    <value>כאן אמור להופיע תנאי.</value>
+  </data>
+  <data name="ElseIfUnexpected" xml:space="preserve">
+    <value>הפקודה ElseIf הינה תקינה רק בשילוב עם הפקודה If..Then. הפקודה אינה אפשרית במיקום זה.</value>
+  </data>
+  <data name="EndForExpected" xml:space="preserve">
+    <value>הפקודה EndFor אמורה להמצא כאן.</value>
+  </data>
+  <data name="EndIfExpected" xml:space="preserve">
+    <value>הפקודה EndIf אמורה להמצא כאן.</value>
+  </data>
+  <data name="EndSubExpected" xml:space="preserve">
+    <value>הפקודה EndSub אמורה להמצא כאן.</value>
+  </data>
+  <data name="EndWhileExpected" xml:space="preserve">
+    <value>הפקודה EndWhile אמורה להמצא כאן.</value>
+  </data>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>האירוע '{0}'ב-'{1}' לא נמצא.</value>
+    <comment>0: Event Name, 1: Type Name</comment>
+  </data>
+  <data name="ExpressionExpected" xml:space="preserve">
+    <value>נדרש ביטוי במקום זה.</value>
+  </data>
+  <data name="ExpressionExpectedAfter" xml:space="preserve">
+    <value>נדרש ביטוי לאחר '{0}'.</value>
+  </data>
+  <data name="IdentifierExpected" xml:space="preserve">
+    <value>במיקום זה צריך לבוא משתנה או אובייקט.</value>
+  </data>
+  <data name="VariableNotInitialized" xml:space="preserve">
+    <value>ייתכן שהמשתנה '{0}' נמצא בשימוש ללא איתחול. האם לא טעית בכתיב?</value>
+    <comment>0: Variable Name</comment>
+  </data>
+  <data name="LabelNotFound" xml:space="preserve">
+    <value>התווית '{0}' הנקראת ע"י הפקודה Goto לא נמצאה.
+	</value>
+    <comment>0: Label Name</comment>
+  </data>
+  <data name="LoadReferenceFailed" xml:space="preserve">
+    <value>טעינת ההתייחסות {0} נכשלה.</value>
+  </data>
+  <data name="MethodNotFound" xml:space="preserve">
+    <value>הפעולה '{0}' ב '{1}' לא נמצאה.</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsReadOnly" xml:space="preserve">
+    <value>המאפיין '{0}' של '{1}'הוא לקריאה בלבד ולא יכול לקבל ערך אחר.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="PropertyIsWriteOnly" xml:space="preserve">
+    <value>המאפיין '{0}' של '{1}'הוא לכתיבה בלבד ולכן אינו  מחזיר ערך.</value>
+  </data>
+  <data name="PropertyNotFound" xml:space="preserve">
+    <value>המאפיין '{0}' של '{1}' לא נמצא.</value>
+    <comment>0: Property Name, 1: Type Name</comment>
+  </data>
+  <data name="ReturnValueExpectedFromVoidMethod" xml:space="preserve">
+    <value>הפעולה '{0}.{1}' אמורה להחזיר ערך, אך מאומה לא הוחזר .</value>
+    <comment>0: Method Name, 1: Type Name</comment>
+  </data>
+  <data name="SubroutineEventAssignment" xml:space="preserve">
+    <value>שגרה '{0}' ניתנת להשמה לאירוע בלבד</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineNotDefined" xml:space="preserve">
+    <value>השגרה '{0}' אינה מוגדרת.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="SubroutineUsedAsVariable" xml:space="preserve">
+    <value>'{0}' היא שגרה, אך משמשת כמשתנה.</value>
+    <comment>0: Subroutine Name</comment>
+  </data>
+  <data name="TokenExpected" xml:space="preserve">
+    <value>מצפים כאן ל- '{0}' כאן אך הוא לא נמצא.</value>
+  </data>
+  <data name="TypeNotFound" xml:space="preserve">
+    <value>אובייקט '{0}' לא נמצא.</value>
+    <comment>0: Type Name</comment>
+  </data>
+  <data name="UnexpectedMethodCallEOL" xml:space="preserve">
+    <value>סוף שורה נמצא באופן בלתי צפוי, תוך כדי קריאה לפעולה</value>
+  </data>
+  <data name="UnexpectedTokenAtLocation" xml:space="preserve">
+    <value>'{0}' אינו צפוי במיקום זה.</value>
+  </data>
+  <data name="UnexpectedTokenFound" xml:space="preserve">
+    <value>אסימון {0} בלתי צפוי במיקום זה.</value>
+  </data>
+  <data name="UnrecognizedStatement" xml:space="preserve">
+    <value>נמצא משפט לא מזוהה.</value>
+  </data>
+  <data name="DocumentModified" xml:space="preserve">
+    <value>התוכנית שנסגרה השתנתה: לחץ כן אם ברצונך לשמור אותה; לא בכדי להתעלם מהשינויים וביטול בכדי לסגור חלון זה</value>
+  </data>
+  <data name="FailedToImportFromWeb" xml:space="preserve">
+    <value>ייבוא תוכנית מהרשת נכשל</value>
+  </data>
+  <data name="FailedToPublishToWeb" xml:space="preserve">
+    <value>ייצוא תוכנית לרשת נכשל</value>
+  </data>
+  <data name="ImportFromWeb" xml:space="preserve">
+    <value>ייבא תוכנית מהרשת.</value>
+  </data>
+  <data name="ImportFromWebFailedReason" xml:space="preserve">
+    <value>התוכנית המבוקשת לא נמצאה בשרת. נא לבדוק את זיהויה ולנסות שוב.</value>
+  </data>
+  <data name="ImportLocationOfProgramOnWeb" xml:space="preserve">
+    <value>נא להכניס את זיהוי התוכנית.</value>
+  </data>
+  <data name="LocationOfProgramOnWeb" xml:space="preserve">
+    <value>למטה מופיע זיהוי התוכנית שלך שניתן לשתפו עם חבריך.</value>
+  </data>
+  <data name="ProgramRunning" xml:space="preserve">
+    <value>התוכנית ({0}) התחילה ורצה עכשיו.</value>
+  </data>
+  <data name="PublishedToWeb" xml:space="preserve">
+    <value>התוכנית יוצאה לרשת בהצלחה.</value>
+  </data>
+  <data name="PublishToWebFailedReason" xml:space="preserve">
+    <value>התוכנית לא יוצאה לשרת. היא ריקה או גדולה מדי.</value>
+  </data>
+  <data name="ReasonForFailure" xml:space="preserve">
+    <value>התגלתה השגיאה הבאה.
+
+{0}</value>
+    <comment>0: Error details</comment>
+  </data>
+  <data name="SaveDocumentBeforeClosing" xml:space="preserve">
+    <value>האם ברצונך לשמור את התוכנית לפני הסגירה?</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>שמירת התוכנית נכשלה מהסיבה הבאה:</value>
+  </data>
+  <data name="SaveFailedReason" xml:space="preserve">
+    <value>{0}
+
+האם תרצה לשמור בשם קובץ אחר?</value>
+    <comment>{0} = Exception message</comment>
+  </data>
+  <data name="SmallBasicFileFilter" xml:space="preserve">
+    <value>‫קבצי Small Basic (‏*.smallbasic)‬</value>
+  </data>
+  <data name="EndProgramCommand" xml:space="preserve">
+    <value>סיום התוכנית</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>הקובץ '{0}' לא נמצא</value>
+    <comment>0: File Name</comment>
+  </data>
+  <data name="ImportProgramCommand" xml:space="preserve">
+    <value>ייבא</value>
+  </data>
+  <data name="OverlayCloseAtEnd" xml:space="preserve">
+    <value>רובד זה ייסגר אוטומטית כשהתוכנית תיסגר</value>
+  </data>
+  <data name="PublishProgramCommand" xml:space="preserve">
+    <value>ייצא</value>
+  </data>
+  <data name="FormatProgramCommand" xml:space="preserve">
+    <value>סדר את התוכנית</value>
+  </data>
+  <data name="RunProgramCommand" xml:space="preserve">
+    <value>‫התחל (F5)‬</value>
+    <comment>F5 = Key</comment>
+  </data>
+  <data name="NewCommand" xml:space="preserve">
+    <value>חדש</value>
+  </data>
+  <data name="OpenCommand" xml:space="preserve">
+    <value>פתח</value>
+  </data>
+  <data name="SaveCommand" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="SaveAsCommand" xml:space="preserve">
+    <value>שמור בשם</value>
+  </data>
+  <data name="CutCommand" xml:space="preserve">
+    <value>גזור</value>
+  </data>
+  <data name="CopyCommand" xml:space="preserve">
+    <value>העתק</value>
+  </data>
+  <data name="PasteCommand" xml:space="preserve">
+    <value>הדבק</value>
+  </data>
+  <data name="UndoCommand" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="RedoCommand" xml:space="preserve">
+    <value>בצע שוב</value>
+  </data>
+  <data name="FindCommand" xml:space="preserve">
+    <value>חפש</value>
+  </data>
+  <data name="FindNextCommand" xml:space="preserve">
+    <value>חפש את הבא</value>
+  </data>
+  <data name="TextToSearch" xml:space="preserve">
+    <value>טקסט לחיפוש</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Microsoft Small Basic</value>
+    <comment>Do not localize</comment>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>ללא שם</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="WaitForProgramExit" xml:space="preserve">
+    <value>ניתן לחכות לסיום התוכנית, או ללחוץ על הכפתור 'סיים' כדי לסגור את התוכנית ולחזור לעריכה.</value>
+  </data>
+  <data name="FoundErrors" xml:space="preserve">
+    <value>אופס, נמצאו שגיאות:</value>
+  </data>
+  <data name="ClipboardGroup" xml:space="preserve">
+    <value>לוח</value>
+  </data>
+  <data name="FileGroup" xml:space="preserve">
+    <value>קובץ</value>
+  </data>
+  <data name="ProgramGroup" xml:space="preserve">
+    <value>תוכנית</value>
+  </data>
+  <data name="WebGroup" xml:space="preserve">
+    <value>רשת</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>בודק... 123</value>
+  </data>
+  <data name="FailedToCreateOutputFile" xml:space="preserve">
+    <value>יצירת קובץ הפלט נכשלה</value>
+  </data>
+  <data name="FailedToCreateOutputFileReason" xml:space="preserve">
+    <value>קודם כל יש לשמור את התוכנית ואחר כך לנסות להריץ שוב
+	
+	פרטים נוספים: {0}</value>
+  </data>
+  <data name="LocationOfProgramHRef" xml:space="preserve">
+    <value>http://smallbasic.com/program/?{0}</value>
+  </data>
+  <data name="LocationOfProgramListing" xml:space="preserve">
+    <value>ניתן לראות את התוכנית ב: </value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>אירוע</value>
+  </data>
+  <data name="Keyword" xml:space="preserve">
+    <value>מילה שמורה</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>פעולה</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>מאפיין</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>אובייקט</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>משתנה</value>
+  </data>
+  <data name="Subroutine" xml:space="preserve">
+    <value>שגרה</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>תווית</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>אחר(ת)</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>אשר</value>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>_כן</value>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>_לא</value>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>_נסה שנית</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>סגור</value>
+  </data>
+  <data name="Returns" xml:space="preserve">
+    <value>מחזירה</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>כלום</value>
+  </data>
+  <data name="ExportToVisualBasicCommand" xml:space="preserve">
+    <value>Visual Basic יצוא ל</value>
+  </data>
+  <data name="ButtonContinue" xml:space="preserve">
+    <value>ה_משך</value>
+  </data>
+  <data name="Converting" xml:space="preserve">
+    <value>ממיר...</value>
+  </data>
+  <data name="ExportToVB" xml:space="preserve">
+  <value>Visual Basic יצוא ל</value>
+  </data>
+  <data name="ExportToVBDescription" xml:space="preserve">
+ <value>Microsoft Visual Basic ל Small Basic אשף זה ממיר תוכניות מ</value>
+  </data>
+  <data name="FoundErrorsInProgram" xml:space="preserve">
+    <value>נמצאו טעויות בתוכנית. יש לתקנן ולנסות שוב.</value>
+  </data>
+  <data name="Graduate" xml:space="preserve">
+    <value>יצוא ל-VB</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>טוען...</value>
+  </data>
+  <data name="OutputLocation" xml:space="preserve">
+    <value>מיקום הפלט: </value>
+  </data>
+  <data name="VBNotFound" xml:space="preserve">
+  <value>ניתן להוריד גרסה חופשית מ - Microsoft Visual Basic במכונה זו לא נמצא</value>
+  </data>
+  <data name="BriefDescription" xml:space="preserve">
+    <value>תיאור קצר (מקס' 1024(</value>
+  </data>
+  <data name="CategoryExample" xml:space="preserve">
+    <value>דוגמה</value>
+  </data>
+  <data name="CategoryExercise" xml:space="preserve">
+    <value>תרגיל</value>
+  </data>
+  <data name="CategoryFun" xml:space="preserve">
+    <value>בידור</value>
+  </data>
+  <data name="CategoryGame" xml:space="preserve">
+    <value>משחק</value>
+  </data>
+  <data name="CategoryMath" xml:space="preserve">
+    <value>מתמטיקה</value>
+  </data>
+  <data name="CategoryMiscellaneous" xml:space="preserve">
+    <value>שונות</value>
+  </data>
+  <data name="CategorySample" xml:space="preserve">
+    <value>דוגמה</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>דוגמה</value>
+  </data>
+  <data name="FailedToUpdateProgramInfo" xml:space="preserve">
+    <value>עדכון פרטי התוכנית נכשל</value>
+  </data>
+  <data name="ProgramCategory" xml:space="preserve">
+    <value>קטגוריה</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>כותרת התוכנית (מקס' 255)</value>
+  </data>
+  <data name="UpdateAndClose" xml:space="preserve">
+    <value>עדכן וסגור</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="ImportedProgram" xml:space="preserve">
+    <value>{0} - יובאה</value>
+    <comment>0: Imported program Id</comment>
+  </data>
+  <data name="AddMoreDetails" xml:space="preserve">
+    <value>נדרשים פרטים נוספים</value>
+  </data>
+  <data name="ClickHereToDownload" xml:space="preserve">
+    <value>הקש כאן להורדה</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+   	<value> .Small Basic יש גרסה חדשה יותר של </value>
+	
+	
+  </data>
+</root>
