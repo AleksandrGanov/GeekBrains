@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\06. Алгоритмы и структуры данных. Базовый курс\\ДЗ\\Lesson_07.HW\\Solution L07\\MyLib\\MyLib.csproj": {}
+    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLib\\MyLib.csproj": {}
   },
   "projects": {
-    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\06. Алгоритмы и структуры данных. Базовый курс\\ДЗ\\Lesson_07.HW\\Solution L07\\MyLib\\MyLib.csproj": {
+    "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLib\\MyLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\06. Алгоритмы и структуры данных. Базовый курс\\ДЗ\\Lesson_07.HW\\Solution L07\\MyLib\\MyLib.csproj",
+        "projectUniqueName": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLib\\MyLib.csproj",
         "projectName": "MyLib",
-        "projectPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\06. Алгоритмы и структуры данных. Базовый курс\\ДЗ\\Lesson_07.HW\\Solution L07\\MyLib\\MyLib.csproj",
+        "projectPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLib\\MyLib.csproj",
         "packagesPath": "C:\\Users\\Ганов\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\06. Алгоритмы и структуры данных. Базовый курс\\ДЗ\\Lesson_07.HW\\Solution L07\\MyLib\\obj\\",
+        "outputPath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\MyLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
