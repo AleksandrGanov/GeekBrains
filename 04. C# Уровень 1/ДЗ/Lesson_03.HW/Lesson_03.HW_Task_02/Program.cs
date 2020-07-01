@@ -22,7 +22,7 @@ namespace Lesson_03.HW_Task_02
 
             do
             {
-                digit = ask.GetValueDouble("Введите любое число: ");
+                digit = ask.GetValueDouble("Введите любое число (для окончания введите НОЛЬ): ");
                 if (digit % 2 != 0 && digit > 0)
                 {
                     lst.Add(digit);
