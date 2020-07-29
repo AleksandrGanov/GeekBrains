@@ -46,3 +46,4 @@ D:\Downloads\YandexDisk\Книги, Материалы\Программиров�
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_01.HW\MyLibraries\obj\Debug\netstandard2.0\MyLibraries.AssemblyInfo.cs
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_01.HW\MyLibraries\obj\Debug\netstandard2.0\MyLibraries.dll
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_01.HW\MyLibraries\obj\Debug\netstandard2.0\MyLibraries.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_01.HW\MyLibraries\obj\Debug\netstandard2.0\MyLibraries.csproj.CoreCompileInputs.cache
