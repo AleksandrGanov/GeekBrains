@@ -26,8 +26,7 @@ namespace Lesson_01.Exp_08
     public sealed class Cat : Animals
     {
         private ushort? _lengthTail;
-        public Cat(string name, int numberPaws, ushort? lengthTail) : base(name,
-            numberPaws)
+        public Cat(string name, int numberPaws, ushort? lengthTail) :  base(name, numberPaws)
         {
             _lengthTail = lengthTail;
         }

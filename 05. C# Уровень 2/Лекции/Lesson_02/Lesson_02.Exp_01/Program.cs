@@ -4,7 +4,7 @@ using System;
 
 namespace Interface_sample
 {
-    class Program
+    public class Program
     {
         static void Main()
         {
@@ -24,7 +24,8 @@ namespace Interface_sample
         public object Current => _count;
         public bool MoveNext() => _count-- > 0;
     }
-    public interface IEnumerator
+
+    internal interface IEnumerator
     {
         object Current { get; }
         bool MoveNext();

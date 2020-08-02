@@ -8,7 +8,7 @@ namespace MyGame
 
         public Image_(Point pos, Point dir, Size size) : base(pos, dir, size)
         {
-            _image = Image.FromFile("photo.jpg");
+            _image = Image.FromFile("photo.png");
         }
 
         public override void Draw()

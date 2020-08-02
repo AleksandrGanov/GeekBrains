@@ -36,14 +36,18 @@ namespace MyGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::MyGame.Properties.Resources.cosmos;
             this.ClientSize = new System.Drawing.Size(1043, 694);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "GrForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cosmic Space";
             this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private TextBox textBox;
     }
 }

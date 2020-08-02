@@ -6,6 +6,7 @@
  */
 
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace MyGame
@@ -14,7 +15,7 @@ namespace MyGame
     {
         static void Main()
         {
-            GrForm form = new GrForm();
+            var form = new GrForm();
             Game.Init(form);
             Application.Run(form);
         }
