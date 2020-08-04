@@ -9,3 +9,4 @@ D:\Downloads\YandexDisk\Книги, Материалы\Программиров�
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_02-05\obj\Debug\Lesson_02.HW_Task_02-05.csproj.CopyComplete
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_02-05\obj\Debug\MyGame.exe
 D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_02-05\obj\Debug\MyGame.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_02.HW\Lesson_02.HW_Task_02-05\obj\Debug\Lesson_02.HW_Task_02-05.csproj.CoreCompileInputs.cache

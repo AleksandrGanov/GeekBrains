@@ -48,7 +48,7 @@ namespace MyGame
                 }
                 else if (choice > 90)
                 {
-                    int size = rnd.Next(10, 20);
+                    int size = rnd.Next(30, 80);
                     _objs[i] = new Image_(new Point(20, i * rnd.Next(1, 20)), new Point(rnd.Next(1, 15), rnd.Next(1, 15)), new Size(size, size));
                 }
 
@@ -58,7 +58,7 @@ namespace MyGame
         {
             Buffer.Graphics.Clear(Color.Black);
             //Buffer.Graphics.DrawImage(Image.FromFile("cosmos.jpg"), 0, 0);
-            Buffer.Graphics.DrawImage((Image)Properties.Resources.cosmos, 0, 0);
+            Buffer.Graphics.DrawImage(Properties.Resources.cosmos, 0, 0);
             foreach (BaseObject obj in _objs)
             {
                 obj.Draw();

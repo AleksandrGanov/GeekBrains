@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_01.Exp_01", "Lesson_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 01", "Lesson 01", "{4D96CB14-165A-4972-B0FE-ACEB4ED5B716}"
 	ProjectSection(SolutionItems) = preProject
-		Lesson_01.ReadMe.txt = Lesson_01.ReadMe.txt
+		Lesson_01\Lesson_01.ReadMe.txt = Lesson_01\Lesson_01.ReadMe.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_01.Exp_02", "Lesson_01\Lesson_01.Exp_02\Lesson_01.Exp_02.csproj", "{5616876C-3B39-41E2-A118-9CC27E6267F6}"
@@ -30,7 +30,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_01.Exp_10", "Lesson_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 02", "Lesson 02", "{7FDBD813-5885-4853-89AE-E3A6D5CED1CB}"
 	ProjectSection(SolutionItems) = preProject
-		Lesson_02.ReadMe.txt = Lesson_02.ReadMe.txt
+		Lesson_02\Lesson_02.ReadMe.txt = Lesson_02\Lesson_02.ReadMe.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_02.Exp_01", "Lesson_02\Lesson_02.Exp_01\Lesson_02.Exp_01.csproj", "{9D2963D0-F5A8-4080-B8AB-E6E9F2EC13E4}"
@@ -86,6 +86,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_02.Exp_26", "Lesson_02\Lesson_02.Exp_26\Lesson_02.Exp_26.csproj", "{38A28560-123C-4E3E-9258-31F81389ADE0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLib", "..\..\MyLib\MyLib.csproj", "{55570D4D-D7C2-4139-8406-8E19F4BF3710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 3", "Lesson 3", "{DED4B99C-1D1E-4E22-B304-943ECEA34420}"
+	ProjectSection(SolutionItems) = preProject
+		Lesson_03\Lesson_03.ReadMe.txt = Lesson_03\Lesson_03.ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_03.Exp_01", "Lesson_03\Lesson_03.Exp_01\Lesson_03.Exp_01.csproj", "{4910119E-8821-4B4D-9ABA-61D20C53E857}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -241,6 +248,10 @@ Global
 		{55570D4D-D7C2-4139-8406-8E19F4BF3710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55570D4D-D7C2-4139-8406-8E19F4BF3710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55570D4D-D7C2-4139-8406-8E19F4BF3710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4910119E-8821-4B4D-9ABA-61D20C53E857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4910119E-8821-4B4D-9ABA-61D20C53E857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4910119E-8821-4B4D-9ABA-61D20C53E857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4910119E-8821-4B4D-9ABA-61D20C53E857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -282,6 +293,7 @@ Global
 		{D2B77C53-69E8-4FEC-BACE-F2DEB05BD7C8} = {7FDBD813-5885-4853-89AE-E3A6D5CED1CB}
 		{CA39755B-32BA-4451-BAAF-55523D337502} = {7FDBD813-5885-4853-89AE-E3A6D5CED1CB}
 		{38A28560-123C-4E3E-9258-31F81389ADE0} = {7FDBD813-5885-4853-89AE-E3A6D5CED1CB}
+		{4910119E-8821-4B4D-9ABA-61D20C53E857} = {DED4B99C-1D1E-4E22-B304-943ECEA34420}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9710C6C1-92D0-4B48-B992-1E1460169F64}
