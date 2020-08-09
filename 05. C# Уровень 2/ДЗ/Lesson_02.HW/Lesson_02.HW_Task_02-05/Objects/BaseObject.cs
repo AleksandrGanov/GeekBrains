@@ -2,14 +2,14 @@
 
 namespace MyGame
 {
-    public abstract class BaseObject:ICollision
+    public abstract class BaseObject : ICollision
     {
         protected Point Pos;
         protected Point Dir;
         protected Size Size;
 
         public Rectangle Rect => new Rectangle(Pos, Size);
-        public bool Collision(ICollision o) => o.Rect.IntersectsWith(this.Rect);
+        public bool Collision(ICollision o) => o.Rect.IntersectsWith(Rect);
 
         public BaseObject(Point pos, Point dir, Size size)
         {

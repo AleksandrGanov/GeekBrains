@@ -4,7 +4,7 @@ namespace MyGame
 {
     class Bullet : BaseObject
     {
-        // ограничения на размер пули
+        // Ограничения на размер пули
         const int bulletMaxWidth = 20;
         const int bulletMaxHeight = 10;
 

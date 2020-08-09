@@ -40,9 +40,9 @@ namespace MyGame
         /// <param name="bullet">Текущий экземпляр класса Asteroid</param>
         public void Update(Asteroid aster)
         {
-            //Pos.X = Game.Width - aster.Size.Width;
-            //Pos.Y = aster.Pos.Y;
-            //brush = Brushes.Green;
+            Pos.X = Game.Width - aster.Size.Width;
+            Pos.Y = aster.Pos.Y;
+            brush = Brushes.Green;
         }
     }
 }
