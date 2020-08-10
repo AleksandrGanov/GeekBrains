@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Drawing;
 
 namespace Lesson_03.Exp_04
@@ -6,7 +7,6 @@ namespace Lesson_03.Exp_04
     class Asteroid : BaseObject, ICloneable, IComparable, IComparable<Asteroid>
     {
         Brush brush = Brushes.Yellow;
-        private readonly Object GS;
 
         public int Power { get; set; } = 3;
 
