@@ -6,10 +6,9 @@
 
 using System;
 
-using static mlConsole.PrintData;
+using static mlConsole.GetData;
 
 using arrType = System.Int32;
-using static mlConsole.GetData;
 
 namespace Lesson05.HW.Task01
 {
@@ -20,11 +19,11 @@ namespace Lesson05.HW.Task01
 
         static void Main()
         {
-            int value=(int)GetValueUInt("Введите положительное значение: ");
+            int value = (int)GetValueUInt("Введите положительное значение: ");
             while (value > 0)
             {
                 int remainder = value % 2;
-                value/=2;
+                value /= 2;
                 Push(remainder);
             }
             while (N != -1) Console.Write($"{Pop()}");

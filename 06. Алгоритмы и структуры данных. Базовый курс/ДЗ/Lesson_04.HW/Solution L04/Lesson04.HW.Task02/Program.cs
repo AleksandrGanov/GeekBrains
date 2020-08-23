@@ -20,7 +20,8 @@ namespace Lesson04.HW.Task02
         }
         static void LCSCycle(string s1, string s2)
         {
-            int rowDim = s1.Length + 1, colDim = s2.Length + 1;
+            int rowDim = s1.Length + 1;
+            int colDim = s2.Length + 1;
             int[,] arrInt = new int[rowDim, colDim];
             char[,] arrChar = new char[rowDim, colDim];
             char[] arrCommon = new char[colDim - 1];
@@ -30,7 +31,9 @@ namespace Lesson04.HW.Task02
             for (int j = 1; j < colDim + 1; j++) arrInt[0, j - 1] = 1;
             for (int j = 0; j < colDim - 1; j++) arrCommon[j] = '0';
 
+            // Заполняем слово №1 по горизонтали
             for (int i = 1; i < rowDim; i++) arrChar[i, 0] = s1[i - 1];
+            // Заполняем слово №2 по вертикали
             for (int j = 1; j < colDim; j++) arrChar[0, j] = s2[j - 1];
             #endregion
 

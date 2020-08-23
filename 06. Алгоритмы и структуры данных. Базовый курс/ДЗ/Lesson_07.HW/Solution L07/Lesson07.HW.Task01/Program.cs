@@ -64,7 +64,7 @@ namespace Lesson07.HW.Task01
             if (conNumMax > rndSize) conNumMax = rndSize;
             rndSize /= 2; rndSize *= 2; // Сделано только для четного кол-ва узлов
             Random rnd = new Random();
-            System.IO.File.Delete("Matrix.txt");
+            File.Delete("Matrix.txt");
             StreamWriter sw = new StreamWriter(new FileStream("Matrix.txt", FileMode.OpenOrCreate));
             sw.WriteLine(rndSize);
             int[,] arr = new int[rndSize, rndSize];
