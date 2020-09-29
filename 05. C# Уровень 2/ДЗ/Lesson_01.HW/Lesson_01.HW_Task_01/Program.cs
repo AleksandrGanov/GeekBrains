@@ -5,8 +5,6 @@
 * Заменить кружочки картинками, используя метод DrawImage.
  */
 
-using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace MyGame
@@ -16,7 +14,7 @@ namespace MyGame
         static void Main()
         {
             var form = new GrForm();
-            Game.Init(form);
+            GameLogic.Init(form);
             Application.Run(form);
         }
     }

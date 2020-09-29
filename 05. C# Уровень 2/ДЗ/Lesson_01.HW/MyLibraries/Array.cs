@@ -7,6 +7,9 @@ using System.IO;
 
 namespace mlArray
 {
+    /// <summary>
+    /// Класс содержит методы работы с массивами
+    /// </summary>
     public class OneDimArray
     {
         readonly int[] a;

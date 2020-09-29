@@ -48,27 +48,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseObject.cs" />
-    <Compile Include="Image_.cs" />
+    <Compile Include="GrBaseObject.cs" />
+    <Compile Include="GrAsteriod.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Star.cs" />
+    <Compile Include="GrStar.cs" />
     <Compile Include="GrForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GrForm.Designer.cs">
       <DependentUpon>GrForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Game.cs" />
+    <Compile Include="GameLogic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyLibraries\MyLibraries.csproj">

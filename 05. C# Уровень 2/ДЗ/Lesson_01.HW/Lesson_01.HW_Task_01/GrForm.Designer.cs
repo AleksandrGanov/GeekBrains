@@ -47,7 +47,5 @@ namespace MyGame
         }
 
         #endregion
-
-        private TextBox textBox;
     }
 }
