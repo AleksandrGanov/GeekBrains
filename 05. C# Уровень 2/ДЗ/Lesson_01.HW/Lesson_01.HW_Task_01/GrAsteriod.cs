@@ -1,4 +1,6 @@
-﻿using System.Drawing;
+﻿using MyGame.Properties;
+
+using System.Drawing;
 
 namespace MyGame
 {
@@ -12,8 +14,7 @@ namespace MyGame
         /// </summary>
         readonly Image image;
 
-        public GrAsteriod(Point pos, Point dir, Size size) : base(pos, dir, size) =>
-            image = Image.FromFile("photo.png");
+        public GrAsteriod(Point pos, Point dir, Size size) : base(pos, dir, size) => image = Image.FromFile("photo.png");
 
         /// <summary>
         /// Метод осуществляет отрисовку GrImage

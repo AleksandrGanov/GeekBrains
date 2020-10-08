@@ -71,10 +71,10 @@ namespace Lesson_02.HW_Task_01
             //else { Console.WriteLine("Необрабатываемый тип"); }
             #endregion
             #region Вариант печати с кастом до базового типа
-            if (worker is BaseWorker)
+            if (worker is BaseWorker castedWorker)
             {
-                Console.WriteLine($"Добавлен работник: {((BaseWorker)worker).Name} {((BaseWorker)worker).Surname}," +
-                    $"возраст {((BaseWorker)worker).Age}, ЗП {((BaseWorker)worker).MonthSalary:F0}, тип ЗП: {((BaseWorker)worker).SalaryType}");
+                Console.WriteLine($"Добавлен работник: {castedWorker.Name} {castedWorker.Surname}," +
+                    $"возраст {castedWorker.Age}, ЗП {castedWorker.MonthSalary:F0}, тип ЗП: {castedWorker.SalaryType}");
             }
             else { Console.WriteLine("Необрабатываемый тип"); }
             #endregion

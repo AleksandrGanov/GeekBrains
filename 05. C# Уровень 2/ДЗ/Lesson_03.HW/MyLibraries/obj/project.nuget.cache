@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8SkX+97BMmRqOYYDWxEQBpIyzMzzw4GTDHwfu8HICF4yBEn3swxMHv6F91EinuZnz86Quy5Fl+ugimWhgvGCyA==",
+  "success": true,
+  "projectFilePath": "D:\\Downloads\\YandexDisk\\Книги, Материалы\\Программирование\\Обучение\\GeekBrains\\05. C# Уровень 2\\ДЗ\\Lesson_03.HW\\MyLibraries\\MyLibraries.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

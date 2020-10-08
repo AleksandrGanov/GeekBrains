@@ -1,0 +1,13 @@
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\bin\Debug\MyGame.exe.config
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\bin\Debug\MyGame.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\bin\Debug\MyGame.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\bin\Debug\MyLibraries.dll
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\bin\Debug\MyLibraries.pdb
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\Game_ver.03.csprojAssemblyReference.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\MyGame.GameField.resources
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\MyGame.Properties.Resources.resources
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\Game_ver.03.csproj.GenerateResource.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\Game_ver.03.csproj.CoreCompileInputs.cache
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\Game_ver.03.csproj.CopyComplete
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\MyGame.exe
+D:\Downloads\YandexDisk\Книги, Материалы\Программирование\Обучение\GeekBrains\05. C# Уровень 2\ДЗ\Lesson_03.HW\Game_ver.03\obj\Debug\MyGame.pdb
