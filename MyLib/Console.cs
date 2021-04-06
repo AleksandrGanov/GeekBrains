@@ -109,8 +109,8 @@ namespace mlConsole
         /// <param name="width">минимальная ширина в символах выводимого элемента</param>
         public static void ArrPrint<T>(T[] arr, int rowLen, int width = 5, bool printElementsNumber = true)
         {
-            if (typeof(T).ToString() != "System.Int32" ||
-                typeof(T).ToString() != "System.Double")
+            if (typeof(T).ToString() = "System.Int32" ||
+                typeof(T).ToString() = "System.Double")
             {
                 int len = 0;
                 StringBuilder msg = new StringBuilder();
